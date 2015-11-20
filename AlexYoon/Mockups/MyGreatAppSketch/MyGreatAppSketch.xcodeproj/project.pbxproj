@@ -12,6 +12,7 @@
 		2CF74CF61BFEAEF9005FCFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF74CF41BFEAEF9005FCFF3 /* Main.storyboard */; };
 		2CF74CF81BFEAEF9005FCFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF74CF71BFEAEF9005FCFF3 /* Assets.xcassets */; };
 		2CF74CFB1BFEAEF9005FCFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF74CF91BFEAEF9005FCFF3 /* LaunchScreen.storyboard */; };
+		2CF74D0D1BFEC720005FCFF3 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF74D0C1BFEC720005FCFF3 /* UIViewController+Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2CF74CF71BFEAEF9005FCFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF74CFA1BFEAEF9005FCFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CF74CFC1BFEAEF9005FCFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF74D0C1BFEC720005FCFF3 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2CF74CF01BFEAEF9005FCFF3 /* AppDelegate.swift */,
 				2CF74CF21BFEAEF9005FCFF3 /* ViewController.swift */,
+				2CF74D0C1BFEC720005FCFF3 /* UIViewController+Navigation.swift */,
 				2CF74CF41BFEAEF9005FCFF3 /* Main.storyboard */,
 				2CF74CF71BFEAEF9005FCFF3 /* Assets.xcassets */,
 				2CF74CF91BFEAEF9005FCFF3 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF74D0D1BFEC720005FCFF3 /* UIViewController+Navigation.swift in Sources */,
 				2CF74CF31BFEAEF9005FCFF3 /* ViewController.swift in Sources */,
 				2CF74CF11BFEAEF9005FCFF3 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				2CF74D011BFEAEF9005FCFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
