@@ -112,7 +112,7 @@
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kGj-BL-CIt">
-                                <rect key="frame" x="14" y="497" width="286" height="51"/>
+                                <rect key="frame" x="14" y="317" width="286" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
@@ -130,11 +130,11 @@
             </objects>
             <point key="canvasLocation" x="2070" y="265"/>
         </scene>
-        <!--Item-->
+        <!--Today-->
         <scene sceneID="tyZ-oW-uZH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Wlo-BJ-HD3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="s4F-9a-wJv"/>
+                    <tabBarItem key="tabBarItem" title="Today" badgeValue="2" id="s4F-9a-wJv"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hU9-8i-AlI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -381,6 +381,14 @@
                                     <segue destination="y74-cl-d86" kind="push" id="ECE-av-9cQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sE6-KV-HDj">
+                                <rect key="frame" x="0.0" y="155" width="180" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="SuN-bP-URj" kind="push" id="EqS-DH-gIF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -413,11 +421,11 @@
             </objects>
             <point key="canvasLocation" x="474" y="265"/>
         </scene>
-        <!--Item-->
+        <!--Calander-->
         <scene sceneID="gOs-rN-X3X">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="T6y-vY-8bZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="cKt-dE-qaW"/>
+                    <tabBarItem key="tabBarItem" title="Calander" id="cKt-dE-qaW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ARf-Bl-SqK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -433,11 +441,11 @@
             </objects>
             <point key="canvasLocation" x="907" y="-358"/>
         </scene>
-        <!--Item-->
+        <!--More-->
         <scene sceneID="skV-9g-fzi">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="UBy-Wd-aOc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="nyR-gQ-XsG"/>
+                    <tabBarItem key="tabBarItem" title="More" id="nyR-gQ-XsG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hYN-S5-GX3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
