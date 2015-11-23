@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105DB7031BFECA8500B48946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB7021BFECA8500B48946 /* AppDelegate.swift */; };
+		105DB7051BFECA8500B48946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB7041BFECA8500B48946 /* ViewController.swift */; };
+		105DB7081BFECA8500B48946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105DB7061BFECA8500B48946 /* Main.storyboard */; };
+		105DB70A1BFECA8500B48946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105DB7091BFECA8500B48946 /* Assets.xcassets */; };
+		105DB70D1BFECA8500B48946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105DB70B1BFECA8500B48946 /* LaunchScreen.storyboard */; };
+		105DB7181BFECA8500B48946 /* FairingSketchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB7171BFECA8500B48946 /* FairingSketchTests.swift */; };
+		105DB7231BFECA8600B48946 /* FairingSketchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB7221BFECA8600B48946 /* FairingSketchUITests.swift */; };
+		105DB7321BFECAAC00B48946 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105DB7311BFECAAC00B48946 /* PilotPlant.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		105DB7141BFECA8500B48946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105DB6F71BFECA8500B48946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105DB6FE1BFECA8500B48946;
+			remoteInfo = FairingSketch;
+		};
+		105DB71F1BFECA8500B48946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105DB6F71BFECA8500B48946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105DB6FE1BFECA8500B48946;
+			remoteInfo = FairingSketch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		105DB6FF1BFECA8500B48946 /* FairingSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairingSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		105DB7021BFECA8500B48946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		105DB7041BFECA8500B48946 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		105DB7071BFECA8500B48946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		105DB7091BFECA8500B48946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		105DB70C1BFECA8500B48946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		105DB70E1BFECA8500B48946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105DB7131BFECA8500B48946 /* FairingSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FairingSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105DB7171BFECA8500B48946 /* FairingSketchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairingSketchTests.swift; sourceTree = "<group>"; };
+		105DB7191BFECA8500B48946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105DB71E1BFECA8500B48946 /* FairingSketchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FairingSketchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		105DB7221BFECA8600B48946 /* FairingSketchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairingSketchUITests.swift; sourceTree = "<group>"; };
+		105DB7241BFECA8600B48946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105DB7301BFECAAC00B48946 /* PilotPlant-Swift_Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PilotPlant-Swift_Template.h"; path = "../../../Documents/ITCTCatalog2015/Common/PilotPlant-Swift_Template.h"; sourceTree = "<group>"; };
+		105DB7311BFECAAC00B48946 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = ../../../Documents/ITCTCatalog2015/Common/PilotPlant.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		105DB6FC1BFECA8500B48946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105DB7321BFECAAC00B48946 /* PilotPlant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105DB7101BFECA8500B48946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105DB71B1BFECA8500B48946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105DB6F61BFECA8500B48946 = {
+			isa = PBXGroup;
+			children = (
+				105DB7301BFECAAC00B48946 /* PilotPlant-Swift_Template.h */,
+				105DB7311BFECAAC00B48946 /* PilotPlant.framework */,
+				105DB7011BFECA8500B48946 /* FairingSketch */,
+				105DB7161BFECA8500B48946 /* FairingSketchTests */,
+				105DB7211BFECA8600B48946 /* FairingSketchUITests */,
+				105DB7001BFECA8500B48946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		105DB7001BFECA8500B48946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				105DB6FF1BFECA8500B48946 /* FairingSketch.app */,
+				105DB7131BFECA8500B48946 /* FairingSketchTests.xctest */,
+				105DB71E1BFECA8500B48946 /* FairingSketchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		105DB7011BFECA8500B48946 /* FairingSketch */ = {
+			isa = PBXGroup;
+			children = (
+				105DB7021BFECA8500B48946 /* AppDelegate.swift */,
+				105DB7041BFECA8500B48946 /* ViewController.swift */,
+				105DB7061BFECA8500B48946 /* Main.storyboard */,
+				105DB7091BFECA8500B48946 /* Assets.xcassets */,
+				105DB70B1BFECA8500B48946 /* LaunchScreen.storyboard */,
+				105DB70E1BFECA8500B48946 /* Info.plist */,
+			);
+			path = FairingSketch;
+			sourceTree = "<group>";
+		};
+		105DB7161BFECA8500B48946 /* FairingSketchTests */ = {
+			isa = PBXGroup;
+			children = (
+				105DB7171BFECA8500B48946 /* FairingSketchTests.swift */,
+				105DB7191BFECA8500B48946 /* Info.plist */,
+			);
+			path = FairingSketchTests;
+			sourceTree = "<group>";
+		};
+		105DB7211BFECA8600B48946 /* FairingSketchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				105DB7221BFECA8600B48946 /* FairingSketchUITests.swift */,
+				105DB7241BFECA8600B48946 /* Info.plist */,
+			);
+			path = FairingSketchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		105DB6FE1BFECA8500B48946 /* FairingSketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105DB7271BFECA8600B48946 /* Build configuration list for PBXNativeTarget "FairingSketch" */;
+			buildPhases = (
+				105DB6FB1BFECA8500B48946 /* Sources */,
+				105DB6FC1BFECA8500B48946 /* Frameworks */,
+				105DB6FD1BFECA8500B48946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FairingSketch;
+			productName = FairingSketch;
+			productReference = 105DB6FF1BFECA8500B48946 /* FairingSketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		105DB7121BFECA8500B48946 /* FairingSketchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105DB72A1BFECA8600B48946 /* Build configuration list for PBXNativeTarget "FairingSketchTests" */;
+			buildPhases = (
+				105DB70F1BFECA8500B48946 /* Sources */,
+				105DB7101BFECA8500B48946 /* Frameworks */,
+				105DB7111BFECA8500B48946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105DB7151BFECA8500B48946 /* PBXTargetDependency */,
+			);
+			name = FairingSketchTests;
+			productName = FairingSketchTests;
+			productReference = 105DB7131BFECA8500B48946 /* FairingSketchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		105DB71D1BFECA8500B48946 /* FairingSketchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105DB72D1BFECA8600B48946 /* Build configuration list for PBXNativeTarget "FairingSketchUITests" */;
+			buildPhases = (
+				105DB71A1BFECA8500B48946 /* Sources */,
+				105DB71B1BFECA8500B48946 /* Frameworks */,
+				105DB71C1BFECA8500B48946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105DB7201BFECA8500B48946 /* PBXTargetDependency */,
+			);
+			name = FairingSketchUITests;
+			productName = FairingSketchUITests;
+			productReference = 105DB71E1BFECA8500B48946 /* FairingSketchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105DB6F71BFECA8500B48946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = StarFall;
+				TargetAttributes = {
+					105DB6FE1BFECA8500B48946 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					105DB7121BFECA8500B48946 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 105DB6FE1BFECA8500B48946;
+					};
+					105DB71D1BFECA8500B48946 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 105DB6FE1BFECA8500B48946;
+					};
+				};
+			};
+			buildConfigurationList = 105DB6FA1BFECA8500B48946 /* Build configuration list for PBXProject "FairingSketch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 105DB6F61BFECA8500B48946;
+			productRefGroup = 105DB7001BFECA8500B48946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				105DB6FE1BFECA8500B48946 /* FairingSketch */,
+				105DB7121BFECA8500B48946 /* FairingSketchTests */,
+				105DB71D1BFECA8500B48946 /* FairingSketchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		105DB6FD1BFECA8500B48946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105DB70D1BFECA8500B48946 /* LaunchScreen.storyboard in Resources */,
+				105DB70A1BFECA8500B48946 /* Assets.xcassets in Resources */,
+				105DB7081BFECA8500B48946 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105DB7111BFECA8500B48946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105DB71C1BFECA8500B48946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105DB6FB1BFECA8500B48946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105DB7051BFECA8500B48946 /* ViewController.swift in Sources */,
+				105DB7031BFECA8500B48946 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105DB70F1BFECA8500B48946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105DB7181BFECA8500B48946 /* FairingSketchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105DB71A1BFECA8500B48946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105DB7231BFECA8600B48946 /* FairingSketchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		105DB7151BFECA8500B48946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105DB6FE1BFECA8500B48946 /* FairingSketch */;
+			targetProxy = 105DB7141BFECA8500B48946 /* PBXContainerItemProxy */;
+		};
+		105DB7201BFECA8500B48946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105DB6FE1BFECA8500B48946 /* FairingSketch */;
+			targetProxy = 105DB71F1BFECA8500B48946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		105DB7061BFECA8500B48946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105DB7071BFECA8500B48946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		105DB70B1BFECA8500B48946 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105DB70C1BFECA8500B48946 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		105DB7251BFECA8600B48946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		105DB7261BFECA8600B48946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105DB7281BFECA8600B48946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../Documents/ITCTCatalog2015/Common\"";
+				INFOPLIST_FILE = FairingSketch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarFall.FairingSketch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		105DB7291BFECA8600B48946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../Documents/ITCTCatalog2015/Common\"";
+				INFOPLIST_FILE = FairingSketch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarFall.FairingSketch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		105DB72B1BFECA8600B48946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FairingSketchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarFall.FairingSketchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FairingSketch.app/FairingSketch";
+			};
+			name = Debug;
+		};
+		105DB72C1BFECA8600B48946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FairingSketchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarFall.FairingSketchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FairingSketch.app/FairingSketch";
+			};
+			name = Release;
+		};
+		105DB72E1BFECA8600B48946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FairingSketchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarFall.FairingSketchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FairingSketch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		105DB72F1BFECA8600B48946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FairingSketchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarFall.FairingSketchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FairingSketch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		105DB6FA1BFECA8500B48946 /* Build configuration list for PBXProject "FairingSketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105DB7251BFECA8600B48946 /* Debug */,
+				105DB7261BFECA8600B48946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105DB7271BFECA8600B48946 /* Build configuration list for PBXNativeTarget "FairingSketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105DB7281BFECA8600B48946 /* Debug */,
+				105DB7291BFECA8600B48946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		105DB72A1BFECA8600B48946 /* Build configuration list for PBXNativeTarget "FairingSketchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105DB72B1BFECA8600B48946 /* Debug */,
+				105DB72C1BFECA8600B48946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		105DB72D1BFECA8600B48946 /* Build configuration list for PBXNativeTarget "FairingSketchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105DB72E1BFECA8600B48946 /* Debug */,
+				105DB72F1BFECA8600B48946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 105DB6F71BFECA8500B48946 /* Project object */;
+}
