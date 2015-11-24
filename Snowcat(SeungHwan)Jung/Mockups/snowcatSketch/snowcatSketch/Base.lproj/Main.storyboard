@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Oki-lF-7OF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--My Work-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="001" translatesAutoresizingMaskIntoConstraints="NO" id="lYP-NS-gI6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxj-3r-RTJ">
+                                <rect key="frame" x="63" y="20" width="238" height="48"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="li4-L1-51r">
+                                <rect key="frame" x="318" y="20" width="57" height="48"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZd-O4-ICQ">
+                                <rect key="frame" x="0.0" y="20" width="46" height="48"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Work" id="IKK-dV-SXs"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-22.5" y="-757.5"/>
+        </scene>
+        <!--Trending-->
+        <scene sceneID="xKO-Dp-vOe">
+            <objects>
+                <viewController id="Zld-tU-grr" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kWW-u5-vmd"/>
+                        <viewControllerLayoutGuide type="bottom" id="vSy-UJ-Jdg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vvK-tR-hUN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="002" translatesAutoresizingMaskIntoConstraints="NO" id="YE8-vf-n5K">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trending" id="o1R-nN-d26"/>
+                    <navigationItem key="navigationItem" id="lgp-QO-frt"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6cN-EG-mI8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-718.5" y="-757.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h6G-fU-57F">
+            <objects>
+                <viewController id="w99-XO-XFw" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MH4-Q7-Bsn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nln-JA-BgE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XwG-p1-DKL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="012" translatesAutoresizingMaskIntoConstraints="NO" id="Ady-0u-tZg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="82v-S4-Myb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-157.5" y="791.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fhI-Fm-jw8">
+            <objects>
+                <viewController id="Wg2-yf-9Mm" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZNp-6Q-J38"/>
+                        <viewControllerLayoutGuide type="bottom" id="lIX-Oy-rXw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uk4-tx-qaD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="006" translatesAutoresizingMaskIntoConstraints="NO" id="1dX-eP-042">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lh8-c5-A0v" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1260.5" y="-526.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zjJ-KI-rxs">
+            <objects>
+                <viewController id="S7r-5b-6xx" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OTt-3a-0Xi"/>
+                        <viewControllerLayoutGuide type="bottom" id="hMi-OL-2Dz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NKf-dt-Uc9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="011" translatesAutoresizingMaskIntoConstraints="NO" id="HBd-FE-tz7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXg-9f-0es">
+                                <rect key="frame" x="36" y="242" width="142" height="199"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pPc-O8-iiT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.5" y="11.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WGl-ZJ-oPW">
+            <objects>
+                <viewController id="FbR-eK-BTz" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2lM-U0-ogQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="3zn-lK-Lx9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MXx-3b-kGw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="010" translatesAutoresizingMaskIntoConstraints="NO" id="oGS-Va-Mdr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VBb-v9-i1n" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610.5" y="599.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hgc-Bw-lpg">
+            <objects>
+                <viewController id="GqL-zQ-VMZ" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ijy-5U-9Iy"/>
+                        <viewControllerLayoutGuide type="bottom" id="pzT-Xu-eNb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qnx-DG-IRy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="005" translatesAutoresizingMaskIntoConstraints="NO" id="L7h-lw-gab">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJb-WH-ZSi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1238.5" y="-1268.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="558-4A-kDm">
+            <objects>
+                <viewController id="0Ch-xE-cMJ" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w7q-Hc-Nug"/>
+                        <viewControllerLayoutGuide type="bottom" id="cnc-Fi-3kv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="haq-MF-VlY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="003" translatesAutoresizingMaskIntoConstraints="NO" id="YNC-vi-6oJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VJx-SR-mr5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2058.5" y="-45.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ama-KQ-Kbn">
+            <objects>
+                <viewController id="qFN-4D-nr9" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FG8-wo-6eM"/>
+                        <viewControllerLayoutGuide type="bottom" id="XsP-Wn-Yb3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9YH-ye-BKI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="009" translatesAutoresizingMaskIntoConstraints="NO" id="cIQ-f9-AFb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nCb-ng-D7r" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1118.5" y="655.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Uit-jy-VKV">
+            <objects>
+                <viewController id="Nq9-FE-tTz" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WTB-dt-eHy"/>
+                        <viewControllerLayoutGuide type="bottom" id="O28-DM-shF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nXH-aS-RW6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="013" translatesAutoresizingMaskIntoConstraints="NO" id="tK5-Cn-iZa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S5x-1T-gMY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1047.5" y="679.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8OP-d9-6Xo">
+            <objects>
+                <viewController id="7aV-7T-ZdC" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cQ1-7e-VPG"/>
+                        <viewControllerLayoutGuide type="bottom" id="wt7-VO-QnR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B3J-5U-aAZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="008" translatesAutoresizingMaskIntoConstraints="NO" id="VTq-0i-xmu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t74-v6-gek" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="666.5" y="569.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QFm-Zu-jTq">
+            <objects>
+                <viewController id="CU7-tp-Lgs" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v9g-co-5tA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ov0-wR-gY9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K1e-Hu-Ow6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="014" translatesAutoresizingMaskIntoConstraints="NO" id="hWc-2f-h7W">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XBR-yb-zq1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2110.5" y="-964.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="R0J-L6-P2e">
+            <objects>
+                <viewController id="bjc-8R-ETV" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JUb-SU-uwt"/>
+                        <viewControllerLayoutGuide type="bottom" id="W8Z-FM-d8e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DXm-up-1Ua">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="007" translatesAutoresizingMaskIntoConstraints="NO" id="E0P-1D-ceR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aAJ-Wx-oBk" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1325.5" y="361.5"/>
+        </scene>
+        <!--Collection-->
+        <scene sceneID="ek5-hr-aZs">
+            <objects>
+                <viewController id="JWl-7L-H7o" customClass="ViewController" customModule="snowcatSketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y6q-bG-URW"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ycx-cC-OvS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="thj-9H-Wcg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="004" translatesAutoresizingMaskIntoConstraints="NO" id="vB2-1m-uC1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbT-z8-nXs">
+                                <rect key="frame" x="20" y="77" width="158" height="37"/>
+                                <connections>
+                                    <segue destination="GqL-zQ-VMZ" kind="show" id="7rL-4E-Pc8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aN0-Df-fSs">
+                                <rect key="frame" x="186" y="77" width="169" height="37"/>
+                                <connections>
+                                    <segue destination="Wg2-yf-9Mm" kind="show" id="9ak-UU-0Xq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Collection" id="Ib3-Ce-lFE"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wff-lL-7Fi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="672.5" y="-757.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UIE-nb-HRe">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Oki-lF-7OF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Na4-ol-iC1">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Zld-tU-grr" kind="relationship" relationship="viewControllers" id="hOk-tb-u5z"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="HZ4-lM-LyY"/>
+                        <segue destination="JWl-7L-H7o" kind="relationship" relationship="viewControllers" id="w6b-Wz-vYH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="49z-uQ-a7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-22.5" y="-1595.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="001" width="750" height="1334"/>
+        <image name="002" width="750" height="1334"/>
+        <image name="003" width="750" height="1334"/>
+        <image name="004" width="750" height="1334"/>
+        <image name="005" width="750" height="1334"/>
+        <image name="006" width="750" height="1334"/>
+        <image name="007" width="750" height="1334"/>
+        <image name="008" width="750" height="1334"/>
+        <image name="009" width="750" height="1334"/>
+        <image name="010" width="750" height="1334"/>
+        <image name="011" width="750" height="1334"/>
+        <image name="012" width="750" height="1334"/>
+        <image name="013" width="750" height="1334"/>
+        <image name="014" width="750" height="1334"/>
+    </resources>
+</document>
