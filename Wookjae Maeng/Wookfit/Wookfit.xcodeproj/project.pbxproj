@@ -33,6 +33,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DCEFDF171C08087D0036CBEE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DCEFDEE21C07F5F20036CBEE /* Wookfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wookfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEFDEE51C07F5F20036CBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +148,7 @@
 				DCEFDEDE1C07F5F20036CBEE /* Sources */,
 				DCEFDEDF1C07F5F20036CBEE /* Frameworks */,
 				DCEFDEE01C07F5F20036CBEE /* Resources */,
+				DCEFDF171C08087D0036CBEE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -491,6 +505,7 @@
 				DCEFDF0C1C07F5F20036CBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCEFDF0D1C07F5F20036CBEE /* Build configuration list for PBXNativeTarget "WookfitTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +514,7 @@
 				DCEFDF0F1C07F5F20036CBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCEFDF101C07F5F20036CBEE /* Build configuration list for PBXNativeTarget "WookfitUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +523,7 @@
 				DCEFDF121C07F5F20036CBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
