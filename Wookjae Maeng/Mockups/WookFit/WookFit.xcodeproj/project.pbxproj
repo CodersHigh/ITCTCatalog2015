@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCDB07181C0741D7006D3664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB07171C0741D7006D3664 /* AppDelegate.swift */; };
+		DCDB071A1C0741D7006D3664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB07191C0741D7006D3664 /* ViewController.swift */; };
+		DCDB071D1C0741D7006D3664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDB071B1C0741D7006D3664 /* Main.storyboard */; };
+		DCDB071F1C0741D7006D3664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDB071E1C0741D7006D3664 /* Assets.xcassets */; };
+		DCDB07221C0741D7006D3664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDB07201C0741D7006D3664 /* LaunchScreen.storyboard */; };
+		DCDB072D1C0741D7006D3664 /* WookFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB072C1C0741D7006D3664 /* WookFitTests.swift */; };
+		DCDB07381C0741D7006D3664 /* WookFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB07371C0741D7006D3664 /* WookFitUITests.swift */; };
+		DCDB07481C075C8C006D3664 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDB07471C075C8C006D3664 /* UIViewController+Navigation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCDB07291C0741D7006D3664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDB070C1C0741D7006D3664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDB07131C0741D7006D3664;
+			remoteInfo = WookFit;
+		};
+		DCDB07341C0741D7006D3664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDB070C1C0741D7006D3664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDB07131C0741D7006D3664;
+			remoteInfo = WookFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCDB07141C0741D7006D3664 /* WookFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WookFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDB07171C0741D7006D3664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCDB07191C0741D7006D3664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCDB071C1C0741D7006D3664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCDB071E1C0741D7006D3664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCDB07211C0741D7006D3664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCDB07231C0741D7006D3664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDB07281C0741D7006D3664 /* WookFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WookFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDB072C1C0741D7006D3664 /* WookFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WookFitTests.swift; sourceTree = "<group>"; };
+		DCDB072E1C0741D7006D3664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDB07331C0741D7006D3664 /* WookFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WookFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDB07371C0741D7006D3664 /* WookFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WookFitUITests.swift; sourceTree = "<group>"; };
+		DCDB07391C0741D7006D3664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDB07471C075C8C006D3664 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCDB07111C0741D7006D3664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB07251C0741D7006D3664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB07301C0741D7006D3664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCDB070B1C0741D7006D3664 = {
+			isa = PBXGroup;
+			children = (
+				DCDB07161C0741D7006D3664 /* WookFit */,
+				DCDB072B1C0741D7006D3664 /* WookFitTests */,
+				DCDB07361C0741D7006D3664 /* WookFitUITests */,
+				DCDB07151C0741D7006D3664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCDB07151C0741D7006D3664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB07141C0741D7006D3664 /* WookFit.app */,
+				DCDB07281C0741D7006D3664 /* WookFitTests.xctest */,
+				DCDB07331C0741D7006D3664 /* WookFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDB07161C0741D7006D3664 /* WookFit */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB07471C075C8C006D3664 /* UIViewController+Navigation.swift */,
+				DCDB07171C0741D7006D3664 /* AppDelegate.swift */,
+				DCDB07191C0741D7006D3664 /* ViewController.swift */,
+				DCDB071B1C0741D7006D3664 /* Main.storyboard */,
+				DCDB071E1C0741D7006D3664 /* Assets.xcassets */,
+				DCDB07201C0741D7006D3664 /* LaunchScreen.storyboard */,
+				DCDB07231C0741D7006D3664 /* Info.plist */,
+			);
+			path = WookFit;
+			sourceTree = "<group>";
+		};
+		DCDB072B1C0741D7006D3664 /* WookFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB072C1C0741D7006D3664 /* WookFitTests.swift */,
+				DCDB072E1C0741D7006D3664 /* Info.plist */,
+			);
+			path = WookFitTests;
+			sourceTree = "<group>";
+		};
+		DCDB07361C0741D7006D3664 /* WookFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB07371C0741D7006D3664 /* WookFitUITests.swift */,
+				DCDB07391C0741D7006D3664 /* Info.plist */,
+			);
+			path = WookFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCDB07131C0741D7006D3664 /* WookFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDB073C1C0741D7006D3664 /* Build configuration list for PBXNativeTarget "WookFit" */;
+			buildPhases = (
+				DCDB07101C0741D7006D3664 /* Sources */,
+				DCDB07111C0741D7006D3664 /* Frameworks */,
+				DCDB07121C0741D7006D3664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WookFit;
+			productName = WookFit;
+			productReference = DCDB07141C0741D7006D3664 /* WookFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCDB07271C0741D7006D3664 /* WookFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDB073F1C0741D7006D3664 /* Build configuration list for PBXNativeTarget "WookFitTests" */;
+			buildPhases = (
+				DCDB07241C0741D7006D3664 /* Sources */,
+				DCDB07251C0741D7006D3664 /* Frameworks */,
+				DCDB07261C0741D7006D3664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDB072A1C0741D7006D3664 /* PBXTargetDependency */,
+			);
+			name = WookFitTests;
+			productName = WookFitTests;
+			productReference = DCDB07281C0741D7006D3664 /* WookFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCDB07321C0741D7006D3664 /* WookFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDB07421C0741D7006D3664 /* Build configuration list for PBXNativeTarget "WookFitUITests" */;
+			buildPhases = (
+				DCDB072F1C0741D7006D3664 /* Sources */,
+				DCDB07301C0741D7006D3664 /* Frameworks */,
+				DCDB07311C0741D7006D3664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDB07351C0741D7006D3664 /* PBXTargetDependency */,
+			);
+			name = WookFitUITests;
+			productName = WookFitUITests;
+			productReference = DCDB07331C0741D7006D3664 /* WookFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCDB070C1C0741D7006D3664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "맹욱재";
+				TargetAttributes = {
+					DCDB07131C0741D7006D3664 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DCDB07271C0741D7006D3664 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DCDB07131C0741D7006D3664;
+					};
+					DCDB07321C0741D7006D3664 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DCDB07131C0741D7006D3664;
+					};
+				};
+			};
+			buildConfigurationList = DCDB070F1C0741D7006D3664 /* Build configuration list for PBXProject "WookFit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCDB070B1C0741D7006D3664;
+			productRefGroup = DCDB07151C0741D7006D3664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCDB07131C0741D7006D3664 /* WookFit */,
+				DCDB07271C0741D7006D3664 /* WookFitTests */,
+				DCDB07321C0741D7006D3664 /* WookFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDB07121C0741D7006D3664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB07221C0741D7006D3664 /* LaunchScreen.storyboard in Resources */,
+				DCDB071F1C0741D7006D3664 /* Assets.xcassets in Resources */,
+				DCDB071D1C0741D7006D3664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB07261C0741D7006D3664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB07311C0741D7006D3664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCDB07101C0741D7006D3664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB07481C075C8C006D3664 /* UIViewController+Navigation.swift in Sources */,
+				DCDB071A1C0741D7006D3664 /* ViewController.swift in Sources */,
+				DCDB07181C0741D7006D3664 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB07241C0741D7006D3664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB072D1C0741D7006D3664 /* WookFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB072F1C0741D7006D3664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB07381C0741D7006D3664 /* WookFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCDB072A1C0741D7006D3664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDB07131C0741D7006D3664 /* WookFit */;
+			targetProxy = DCDB07291C0741D7006D3664 /* PBXContainerItemProxy */;
+		};
+		DCDB07351C0741D7006D3664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDB07131C0741D7006D3664 /* WookFit */;
+			targetProxy = DCDB07341C0741D7006D3664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCDB071B1C0741D7006D3664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDB071C1C0741D7006D3664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCDB07201C0741D7006D3664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDB07211C0741D7006D3664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCDB073A1C0741D7006D3664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCDB073B1C0741D7006D3664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCDB073D1C0741D7006D3664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = WookFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCDB073E1C0741D7006D3664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = WookFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCDB07401C0741D7006D3664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WookFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WookFit.app/WookFit";
+			};
+			name = Debug;
+		};
+		DCDB07411C0741D7006D3664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WookFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WookFit.app/WookFit";
+			};
+			name = Release;
+		};
+		DCDB07431C0741D7006D3664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WookFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WookFit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCDB07441C0741D7006D3664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WookFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WookFit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCDB070F1C0741D7006D3664 /* Build configuration list for PBXProject "WookFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDB073A1C0741D7006D3664 /* Debug */,
+				DCDB073B1C0741D7006D3664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDB073C1C0741D7006D3664 /* Build configuration list for PBXNativeTarget "WookFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDB073D1C0741D7006D3664 /* Debug */,
+				DCDB073E1C0741D7006D3664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDB073F1C0741D7006D3664 /* Build configuration list for PBXNativeTarget "WookFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDB07401C0741D7006D3664 /* Debug */,
+				DCDB07411C0741D7006D3664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDB07421C0741D7006D3664 /* Build configuration list for PBXNativeTarget "WookFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDB07431C0741D7006D3664 /* Debug */,
+				DCDB07441C0741D7006D3664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCDB070C1C0741D7006D3664 /* Project object */;
+}
