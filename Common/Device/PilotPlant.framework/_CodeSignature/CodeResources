@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/PilotPlant-Swift.h</key>
 		<data>
-		GuGS+g/3CYyuuZqprewl8XrmbSM=
+		siwc+woxEghQIrzferMP9N5nIw0=
 		</data>
 		<key>Headers/PilotPlant.h</key>
 		<data>
 		96BnQizuTYeJ08D2euuzwm+FTlw=
+		</data>
+		<key>Headers/UIViewController+Navigation.swift</key>
+		<data>
+		K83QPJhTlz6Hmbljnw+RxLbw2Ic=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>Modules/PilotPlant.swiftmodule/arm.swiftmodule</key>
 		<data>
-		7HYpS42BSeN2K/cW9lYfulJiKAc=
+		KLQEvrqdGv/R6aCWflxW+u383fU=
 		</data>
 		<key>Modules/PilotPlant.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Modules/PilotPlant.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		owB4/Atz9MtwU15nwEoRZpuesrs=
+		3YzuCF+cvA1R1af+f4gay7X2BHU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,11 +45,15 @@
 	<dict>
 		<key>Headers/PilotPlant-Swift.h</key>
 		<data>
-		GuGS+g/3CYyuuZqprewl8XrmbSM=
+		siwc+woxEghQIrzferMP9N5nIw0=
 		</data>
 		<key>Headers/PilotPlant.h</key>
 		<data>
 		96BnQizuTYeJ08D2euuzwm+FTlw=
+		</data>
+		<key>Headers/UIViewController+Navigation.swift</key>
+		<data>
+		K83QPJhTlz6Hmbljnw+RxLbw2Ic=
 		</data>
 		<key>Modules/PilotPlant.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -53,7 +61,7 @@
 		</data>
 		<key>Modules/PilotPlant.swiftmodule/arm.swiftmodule</key>
 		<data>
-		7HYpS42BSeN2K/cW9lYfulJiKAc=
+		KLQEvrqdGv/R6aCWflxW+u383fU=
 		</data>
 		<key>Modules/PilotPlant.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -61,7 +69,7 @@
 		</data>
 		<key>Modules/PilotPlant.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		owB4/Atz9MtwU15nwEoRZpuesrs=
+		3YzuCF+cvA1R1af+f4gay7X2BHU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
