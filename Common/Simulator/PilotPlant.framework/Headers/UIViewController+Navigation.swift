@@ -78,12 +78,23 @@ class StopMotionScene: CHStopMotionViewController {
     }
 }
 
+class AudioScene: CHAudioPlayViewController {
+    @IBInspectable var audioFileName:String = ""
+    
+    override func viewDidLoad() {
+        super.audioFileName_inspect = audioFileName
+    }
+}
 
 class PagingScene: CHPagingViewController {
     @IBInspectable var imageBaseName : String = ""
+    @IBInspectable var pageIndicator : Bool = false
+    @IBInspectable var pageSpace : Int = 0
     
     override func viewDidLoad() {
         super.imageBaseName_inspect = imageBaseName
+        super.pageIndicator_inspect = pageIndicator
+        super.pageSpace_inspect = pageSpace
     }
 }
 
@@ -164,9 +175,9 @@ public extension UIViewController {
     }
     
     
-    func viewSize() -> CGSize {
-        return self.view.bounds.size
-    }
+//    func viewSize() -> CGSize {
+//        return self.view.bounds.size
+//    }
 }
 
 

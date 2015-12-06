@@ -87,6 +87,7 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import AVFoundation;
 @import CoreGraphics;
 #endif
 
@@ -94,6 +95,15 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC10PilotPlant25CHAudioPlayViewController")
+@interface CHAudioPlayViewController : UIViewController <AVAudioPlayerDelegate>
+@property (nonatomic, copy) NSString * __null_unspecified audioFileName_inspect;
+- (void)viewDidAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC10PilotPlant27CHImageScrollViewController")
 @interface CHImageScrollViewController : UIViewController
@@ -130,8 +140,11 @@ SWIFT_CLASS("_TtC10PilotPlant25CHMoviePlayViewController")
 SWIFT_CLASS("_TtC10PilotPlant22CHPagingViewController")
 @interface CHPagingViewController : UIViewController <UIScrollViewDelegate>
 @property (nonatomic, copy) NSString * __nonnull imageBaseName_inspect;
+@property (nonatomic) BOOL pageIndicator_inspect;
+@property (nonatomic) NSInteger pageSpace_inspect;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
+- (void)scrollViewWillBeginDragging:(UIScrollView * __nonnull)scrollView;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * __nonnull)scrollView;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
