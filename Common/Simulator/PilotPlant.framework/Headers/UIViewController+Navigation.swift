@@ -13,6 +13,30 @@ import PilotPlant
 private var backButtonHidden : Bool = false
 private var tapKBDismiss : Bool = false
 
+class PopoverHostScene: CHPopoverHostViewController {
+    
+}
+
+class ActivityScene: CHActivityViewController {
+    
+}
+
+class AlertScene: CHAlertViewController {
+    @IBInspectable var alertStyle:Bool = false
+    @IBInspectable var alertTitle:String = ""
+    @IBInspectable var message:String = ""
+    @IBInspectable var redButton:String? = nil
+    @IBInspectable var buttonNames:String = ""
+    
+    override func viewDidLoad() {
+        super.alertStyle_inspect = alertStyle
+        super.alertTitle_inspect = alertTitle
+        super.message_inspect = message
+        super.redButton_inspect = redButton
+        super.buttonNames_inspect = buttonNames
+    }
+}
+
 class PickerScene: CHPickerViewController {
     @IBInspectable var column : Int = 1
     @IBInspectable var plistName : String = ""
@@ -34,8 +58,8 @@ class WebScene: CHWebViewController {
 }
 
 class MapScene: CHMapViewController {
-    @IBInspectable var mapCenter = CGPointMake(36.976775, 128.362891)
-    @IBInspectable var mapSpan = CGSizeMake(0.005, 0.005)
+    @IBInspectable var mapCenter:CGPoint = CGPointMake(36.976775, 128.362891)
+    @IBInspectable var mapSpan:CGSize = CGSizeMake(0.005, 0.005)
     
     override func viewDidLoad() {
         super.mapCenter_inspect = mapCenter
@@ -50,26 +74,26 @@ class ImageScrollScene: CHImageScrollViewController {
     override func viewDidLoad() {
         super.imageName_inspect = imageName
     }
+    @IBAction func zoomToScale(sender: AnyObject) {
+        super.scaleTo(sender)
+    }
+    
 }
 
 
 class MovieScene: CHMoviePlayViewController {
-    @IBInspectable var movieName = ""
-    //@IBInspectable var showControl = false
-    @IBInspectable var repeats = false
+    @IBInspectable var movieName:String = ""
     
     override func viewDidLoad() {
         super.movieName_inspect = movieName
-        //super.showControl_inspect = showControl
-        super.repeats_inspect = repeats
     }
 }
 
 
 class StopMotionScene: CHStopMotionViewController {
-    @IBInspectable var imageBaseName = ""
-    @IBInspectable var repeats = false
-    @IBInspectable var duration = 5.0
+    @IBInspectable var imageBaseName:String = ""
+    @IBInspectable var repeats:Bool = false
+    @IBInspectable var duration:Double = 5.0
     
     override func viewDidLoad() {
         super.imageBaseName_inspect = imageBaseName
@@ -78,18 +102,29 @@ class StopMotionScene: CHStopMotionViewController {
     }
 }
 
+class AudioScene: CHAudioPlayViewController {
+    @IBInspectable var audioFileName:String = ""
+    
+    override func viewDidLoad() {
+        super.audioFileName_inspect = audioFileName
+    }
+}
 
 class PagingScene: CHPagingViewController {
     @IBInspectable var imageBaseName : String = ""
+    @IBInspectable var pageIndicator : Bool = false
+    @IBInspectable var pageSpace : Int = 0
     
     override func viewDidLoad() {
         super.imageBaseName_inspect = imageBaseName
+        super.pageIndicator_inspect = pageIndicator
+        super.pageSpace_inspect = pageSpace
     }
 }
 
 @IBDesignable class RoundButton: RoundRectButton {
-    @IBInspectable var corner = 8
-    @IBInspectable var border = 2
+    @IBInspectable var corner:Int = 8
+    @IBInspectable var border:Int = 2
     
     override func awakeFromNib() {
         super.corner_inspect = corner
@@ -164,9 +199,9 @@ public extension UIViewController {
     }
     
     
-    func viewSize() -> CGSize {
-        return self.view.bounds.size
-    }
+//    func viewSize() -> CGSize {
+//        return self.view.bounds.size
+//    }
 }
 
 
