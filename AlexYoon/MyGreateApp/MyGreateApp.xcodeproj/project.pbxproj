@@ -12,9 +12,6 @@
 		2C8619251C08083C0032E7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8619231C08083C0032E7F9 /* Main.storyboard */; };
 		2C8619271C08083C0032E7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8619261C08083C0032E7F9 /* Assets.xcassets */; };
 		2C86192A1C08083C0032E7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8619281C08083C0032E7F9 /* LaunchScreen.storyboard */; };
-		2C8619321C08086C0032E7F9 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8619311C08086C0032E7F9 /* PilotPlant.framework */; };
-		2C8619331C0808770032E7F9 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8619311C08086C0032E7F9 /* PilotPlant.framework */; };
-		2C8619341C0808770032E7F9 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8619311C08086C0032E7F9 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2C8619341C0808770032E7F9 /* PilotPlant.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,7 +35,6 @@
 		2C8619261C08083C0032E7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C8619291C08083C0032E7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C86192B1C08083D0032E7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C8619311C08086C0032E7F9 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = ../../Common/PilotPlant.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C8619321C08086C0032E7F9 /* PilotPlant.framework in Frameworks */,
-				2C8619331C0808770032E7F9 /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +51,6 @@
 		2C8619131C08083B0032E7F9 = {
 			isa = PBXGroup;
 			children = (
-				2C8619311C08086C0032E7F9 /* PilotPlant.framework */,
 				2C86191E1C08083C0032E7F9 /* MyGreateApp */,
 				2C86191D1C08083B0032E7F9 /* Products */,
 			);
@@ -113,7 +105,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CodersHigh;
 				TargetAttributes = {
 					2C86191B1C08083B0032E7F9 = {
@@ -310,6 +302,7 @@
 				2C8619301C08083D0032E7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
