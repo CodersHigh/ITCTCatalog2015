@@ -20,3 +20,4 @@
     * MyGreatAppScreenshot2.png : 대표적 스크린샷 2
     * MyGreatAppScreenshot3.png : 대표적 스크린샷 3
     * MyGreatAppStoryboard.png : 스토리보드 100% 크기에서 캡처한 뒤 그래픽스 툴로 이어붙임. 축소한 이미지 스크린샷 금지.
+    * MyGreatAppPanel.eps | svg | pdf : 전시용 패널 디자인. ai 파일 금지. svg | pdf 권장. eps 수용
