@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCEFDEE61C07F5F20036CBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEFDEE51C07F5F20036CBEE /* AppDelegate.swift */; };
+		DCEFDEE81C07F5F20036CBEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEFDEE71C07F5F20036CBEE /* ViewController.swift */; };
+		DCEFDEEB1C07F5F20036CBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEFDEE91C07F5F20036CBEE /* Main.storyboard */; };
+		DCEFDEED1C07F5F20036CBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEFDEEC1C07F5F20036CBEE /* Assets.xcassets */; };
+		DCEFDEF01C07F5F20036CBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEFDEEE1C07F5F20036CBEE /* LaunchScreen.storyboard */; };
+		DCEFDEFB1C07F5F20036CBEE /* WookfitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEFDEFA1C07F5F20036CBEE /* WookfitTests.swift */; };
+		DCEFDF061C07F5F20036CBEE /* WookfitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEFDF051C07F5F20036CBEE /* WookfitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCEFDEF71C07F5F20036CBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEFDEDA1C07F5F20036CBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEFDEE11C07F5F20036CBEE;
+			remoteInfo = Wookfit;
+		};
+		DCEFDF021C07F5F20036CBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEFDEDA1C07F5F20036CBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEFDEE11C07F5F20036CBEE;
+			remoteInfo = Wookfit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCEFDEE21C07F5F20036CBEE /* Wookfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wookfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEFDEE51C07F5F20036CBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCEFDEE71C07F5F20036CBEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCEFDEEA1C07F5F20036CBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCEFDEEC1C07F5F20036CBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCEFDEEF1C07F5F20036CBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCEFDEF11C07F5F20036CBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEFDEF61C07F5F20036CBEE /* WookfitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WookfitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEFDEFA1C07F5F20036CBEE /* WookfitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WookfitTests.swift; sourceTree = "<group>"; };
+		DCEFDEFC1C07F5F20036CBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEFDF011C07F5F20036CBEE /* WookfitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WookfitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEFDF051C07F5F20036CBEE /* WookfitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WookfitUITests.swift; sourceTree = "<group>"; };
+		DCEFDF071C07F5F20036CBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEFDEDF1C07F5F20036CBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEFDEF31C07F5F20036CBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEFDEFE1C07F5F20036CBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCEFDED91C07F5F20036CBEE = {
+			isa = PBXGroup;
+			children = (
+				DCEFDEE41C07F5F20036CBEE /* Wookfit */,
+				DCEFDEF91C07F5F20036CBEE /* WookfitTests */,
+				DCEFDF041C07F5F20036CBEE /* WookfitUITests */,
+				DCEFDEE31C07F5F20036CBEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCEFDEE31C07F5F20036CBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEFDEE21C07F5F20036CBEE /* Wookfit.app */,
+				DCEFDEF61C07F5F20036CBEE /* WookfitTests.xctest */,
+				DCEFDF011C07F5F20036CBEE /* WookfitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCEFDEE41C07F5F20036CBEE /* Wookfit */ = {
+			isa = PBXGroup;
+			children = (
+				DCEFDEE51C07F5F20036CBEE /* AppDelegate.swift */,
+				DCEFDEE71C07F5F20036CBEE /* ViewController.swift */,
+				DCEFDEE91C07F5F20036CBEE /* Main.storyboard */,
+				DCEFDEEC1C07F5F20036CBEE /* Assets.xcassets */,
+				DCEFDEEE1C07F5F20036CBEE /* LaunchScreen.storyboard */,
+				DCEFDEF11C07F5F20036CBEE /* Info.plist */,
+			);
+			path = Wookfit;
+			sourceTree = "<group>";
+		};
+		DCEFDEF91C07F5F20036CBEE /* WookfitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCEFDEFA1C07F5F20036CBEE /* WookfitTests.swift */,
+				DCEFDEFC1C07F5F20036CBEE /* Info.plist */,
+			);
+			path = WookfitTests;
+			sourceTree = "<group>";
+		};
+		DCEFDF041C07F5F20036CBEE /* WookfitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCEFDF051C07F5F20036CBEE /* WookfitUITests.swift */,
+				DCEFDF071C07F5F20036CBEE /* Info.plist */,
+			);
+			path = WookfitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCEFDEE11C07F5F20036CBEE /* Wookfit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEFDF0A1C07F5F20036CBEE /* Build configuration list for PBXNativeTarget "Wookfit" */;
+			buildPhases = (
+				DCEFDEDE1C07F5F20036CBEE /* Sources */,
+				DCEFDEDF1C07F5F20036CBEE /* Frameworks */,
+				DCEFDEE01C07F5F20036CBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wookfit;
+			productName = Wookfit;
+			productReference = DCEFDEE21C07F5F20036CBEE /* Wookfit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCEFDEF51C07F5F20036CBEE /* WookfitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEFDF0D1C07F5F20036CBEE /* Build configuration list for PBXNativeTarget "WookfitTests" */;
+			buildPhases = (
+				DCEFDEF21C07F5F20036CBEE /* Sources */,
+				DCEFDEF31C07F5F20036CBEE /* Frameworks */,
+				DCEFDEF41C07F5F20036CBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCEFDEF81C07F5F20036CBEE /* PBXTargetDependency */,
+			);
+			name = WookfitTests;
+			productName = WookfitTests;
+			productReference = DCEFDEF61C07F5F20036CBEE /* WookfitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCEFDF001C07F5F20036CBEE /* WookfitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEFDF101C07F5F20036CBEE /* Build configuration list for PBXNativeTarget "WookfitUITests" */;
+			buildPhases = (
+				DCEFDEFD1C07F5F20036CBEE /* Sources */,
+				DCEFDEFE1C07F5F20036CBEE /* Frameworks */,
+				DCEFDEFF1C07F5F20036CBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCEFDF031C07F5F20036CBEE /* PBXTargetDependency */,
+			);
+			name = WookfitUITests;
+			productName = WookfitUITests;
+			productReference = DCEFDF011C07F5F20036CBEE /* WookfitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCEFDEDA1C07F5F20036CBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "맹욱재";
+				TargetAttributes = {
+					DCEFDEE11C07F5F20036CBEE = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 736J3CTKEC;
+					};
+					DCEFDEF51C07F5F20036CBEE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DCEFDEE11C07F5F20036CBEE;
+					};
+					DCEFDF001C07F5F20036CBEE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DCEFDEE11C07F5F20036CBEE;
+					};
+				};
+			};
+			buildConfigurationList = DCEFDEDD1C07F5F20036CBEE /* Build configuration list for PBXProject "Wookfit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCEFDED91C07F5F20036CBEE;
+			productRefGroup = DCEFDEE31C07F5F20036CBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCEFDEE11C07F5F20036CBEE /* Wookfit */,
+				DCEFDEF51C07F5F20036CBEE /* WookfitTests */,
+				DCEFDF001C07F5F20036CBEE /* WookfitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCEFDEE01C07F5F20036CBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEFDEF01C07F5F20036CBEE /* LaunchScreen.storyboard in Resources */,
+				DCEFDEED1C07F5F20036CBEE /* Assets.xcassets in Resources */,
+				DCEFDEEB1C07F5F20036CBEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEFDEF41C07F5F20036CBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEFDEFF1C07F5F20036CBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCEFDEDE1C07F5F20036CBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEFDEE81C07F5F20036CBEE /* ViewController.swift in Sources */,
+				DCEFDEE61C07F5F20036CBEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEFDEF21C07F5F20036CBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEFDEFB1C07F5F20036CBEE /* WookfitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEFDEFD1C07F5F20036CBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEFDF061C07F5F20036CBEE /* WookfitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCEFDEF81C07F5F20036CBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEFDEE11C07F5F20036CBEE /* Wookfit */;
+			targetProxy = DCEFDEF71C07F5F20036CBEE /* PBXContainerItemProxy */;
+		};
+		DCEFDF031C07F5F20036CBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEFDEE11C07F5F20036CBEE /* Wookfit */;
+			targetProxy = DCEFDF021C07F5F20036CBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCEFDEE91C07F5F20036CBEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEFDEEA1C07F5F20036CBEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCEFDEEE1C07F5F20036CBEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEFDEEF1C07F5F20036CBEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCEFDF081C07F5F20036CBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCEFDF091C07F5F20036CBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCEFDF0B1C07F5F20036CBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Wookfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.Wookfit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DCEFDF0C1C07F5F20036CBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Wookfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.Wookfit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DCEFDF0E1C07F5F20036CBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WookfitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookfitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wookfit.app/Wookfit";
+			};
+			name = Debug;
+		};
+		DCEFDF0F1C07F5F20036CBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WookfitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookfitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wookfit.app/Wookfit";
+			};
+			name = Release;
+		};
+		DCEFDF111C07F5F20036CBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WookfitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookfitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wookfit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCEFDF121C07F5F20036CBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WookfitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.WookfitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wookfit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCEFDEDD1C07F5F20036CBEE /* Build configuration list for PBXProject "Wookfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEFDF081C07F5F20036CBEE /* Debug */,
+				DCEFDF091C07F5F20036CBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEFDF0A1C07F5F20036CBEE /* Build configuration list for PBXNativeTarget "Wookfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEFDF0B1C07F5F20036CBEE /* Debug */,
+				DCEFDF0C1C07F5F20036CBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCEFDF0D1C07F5F20036CBEE /* Build configuration list for PBXNativeTarget "WookfitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEFDF0E1C07F5F20036CBEE /* Debug */,
+				DCEFDF0F1C07F5F20036CBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCEFDF101C07F5F20036CBEE /* Build configuration list for PBXNativeTarget "WookfitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEFDF111C07F5F20036CBEE /* Debug */,
+				DCEFDF121C07F5F20036CBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCEFDEDA1C07F5F20036CBEE /* Project object */;
+}
