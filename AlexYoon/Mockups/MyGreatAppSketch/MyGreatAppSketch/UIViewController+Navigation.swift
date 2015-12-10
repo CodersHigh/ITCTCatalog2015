@@ -8,96 +8,11 @@
 
 import UIKit
 import ObjectiveC
-import PilotPlant
 
 private var backButtonHidden : Bool = false
 private var tapKBDismiss : Bool = false
 
-class PickerScene: CHPickerViewController {
-    @IBInspectable var column : Int = 1
-    @IBInspectable var plistName : String = ""
-    
-    override func viewDidLoad() {
-        super.column_inspect = column
-        super.plistName_inspect = plistName
-    }
-}
 
-class WebScene: CHWebViewController {
-    @IBInspectable var pageURL:String = "www.apple.com"
-    @IBInspectable var localFile:Bool = false
-    
-    override func viewDidLoad() {
-        super.URL_inspect = pageURL
-        super.localFile_inspect = localFile
-    }
-}
-
-class MapScene: CHMapViewController {
-    @IBInspectable var mapCenter = CGPointMake(36.976775, 128.362891)
-    @IBInspectable var mapSpan = CGSizeMake(0.005, 0.005)
-    
-    override func viewDidLoad() {
-        super.mapCenter_inspect = mapCenter
-        super.mapSpan_inspect = mapSpan
-    }
-}
-
-
-class ImageScrollScene: CHImageScrollViewController {
-    @IBInspectable var imageName : String = ""
-    
-    override func viewDidLoad() {
-        super.imageName_inspect = imageName
-    }
-}
-
-
-class MovieScene: CHMoviePlayViewController {
-    @IBInspectable var movieName = ""
-    //@IBInspectable var showControl = false
-    @IBInspectable var repeats = false
-    
-    override func viewDidLoad() {
-        super.movieName_inspect = movieName
-        //super.showControl_inspect = showControl
-        super.repeats_inspect = repeats
-    }
-}
-
-
-class StopMotionScene: CHStopMotionViewController {
-    @IBInspectable var imageBaseName = ""
-    @IBInspectable var repeats = false
-    @IBInspectable var duration = 5.0
-    
-    override func viewDidLoad() {
-        super.imageBaseName_inspect = imageBaseName
-        super.repeats_inspect = repeats
-        super.duration_inspect = duration
-    }
-}
-
-
-class PagingScene: CHPagingViewController {
-    @IBInspectable var imageBaseName : String = ""
-    
-    override func viewDidLoad() {
-        super.imageBaseName_inspect = imageBaseName
-    }
-}
-
-@IBDesignable class RoundButton: RoundRectButton {
-    @IBInspectable var corner = 8
-    @IBInspectable var border = 2
-    
-    override func awakeFromNib() {
-        super.corner_inspect = corner
-        super.border_inspect = border
-    }
-}
-
-    
 public extension UIViewController {
     
     @IBAction func modalDismiss(sender : AnyObject){
@@ -106,6 +21,7 @@ public extension UIViewController {
     
     @IBAction func modalDismissPush(sender : AnyObject){
         var destVC : UIViewController! = nil
+        //var tempVC : UIViewController! = nil
         if let presentingVC = self.presentingViewController as? UITabBarController {
             if let tempVC = presentingVC.selectedViewController as? UINavigationController {
                 destVC = tempVC.topViewController
@@ -163,24 +79,28 @@ public extension UIViewController {
         }
     }
     
+    /*
+    @IBInspectable var keyboardDismiss : Bool {
+        get {
+            return objc_getAssociatedObject(self, &tapKBDismiss) as Bool!
+        }
+        set (newValue){
+            objc_setAssociatedObject(self, &tapKBDismiss, newValue, UInt(OBJC_ASSOCIATION_RETAIN))
+        }
+        
+    }
+    
+    public override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+        super.touchesEnded(touches, withEvent: event)
+        if self.keyboardDismiss {
+            for view in self.view.subviews {
+                view.resignFirstResponder()
+            }
+        }
+    }*/
     
     func viewSize() -> CGSize {
         return self.view.bounds.size
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

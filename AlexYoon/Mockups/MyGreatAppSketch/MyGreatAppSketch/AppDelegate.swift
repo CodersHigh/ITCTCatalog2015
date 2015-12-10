@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import PilotPlant
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

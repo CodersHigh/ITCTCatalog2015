@@ -87,54 +87,26 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import AVFoundation;
 @import CoreGraphics;
-@import AVKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class UIViewController;
+
+SWIFT_CLASS("_TtC10PilotPlant11AppearSegue")
+@interface AppearSegue : UIStoryboardSegue
+- (void)perform;
+- (nonnull instancetype)initWithIdentifier:(NSString * __nullable)identifier source:(UIViewController * __nonnull)source destination:(UIViewController * __nonnull)destination OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC10PilotPlant24CHActivityViewController")
-@interface CHActivityViewController : UIViewController
-- (void)viewDidAppear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC10PilotPlant21CHAlertViewController")
-@interface CHAlertViewController : UIViewController
-@property (nonatomic) BOOL alertStyle_inspect;
-@property (nonatomic, copy) NSString * __nonnull alertTitle_inspect;
-@property (nonatomic, copy) NSString * __nonnull message_inspect;
-@property (nonatomic, copy) NSString * __nullable redButton_inspect;
-@property (nonatomic, copy) NSString * __nonnull buttonNames_inspect;
-- (void)viewDidAppear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC10PilotPlant25CHAudioPlayViewController")
-@interface CHAudioPlayViewController : UIViewController <AVAudioPlayerDelegate>
-@property (nonatomic, copy) NSString * __null_unspecified audioFileName_inspect;
-- (void)viewDidAppear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIScrollView;
-@class UIView;
-
 SWIFT_CLASS("_TtC10PilotPlant27CHImageScrollViewController")
-@interface CHImageScrollViewController : UIViewController <UIScrollViewDelegate>
-@property (nonatomic, copy) NSString * __nonnull imageName_inspect;
+@interface CHImageScrollViewController : UIViewController
+@property IBInspectable NSString *imageName;
 - (void)viewWillAppear:(BOOL)animated;
-- (void)scaleTo:(id __nonnull)sender;
-- (UIView * __nullable)viewForZoomingInScrollView:(UIScrollView * __nonnull)scrollView;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -142,8 +114,8 @@ SWIFT_CLASS("_TtC10PilotPlant27CHImageScrollViewController")
 
 SWIFT_CLASS("_TtC10PilotPlant19CHMapViewController")
 @interface CHMapViewController : UIViewController
-@property (nonatomic) CGPoint mapCenter_inspect;
-@property (nonatomic) CGSize mapSpan_inspect;
+@property IBInspectable CGPoint mapCenter;
+@property IBInspectable CGSize mapSpan;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -152,22 +124,22 @@ SWIFT_CLASS("_TtC10PilotPlant19CHMapViewController")
 
 
 SWIFT_CLASS("_TtC10PilotPlant25CHMoviePlayViewController")
-@interface CHMoviePlayViewController : AVPlayerViewController
-@property (nonatomic, copy) NSString * __nonnull movieName_inspect;
+@interface CHMoviePlayViewController : UIViewController
+@property IBInspectable (nonatomic, copy) NSString * __nonnull movieName;
+@property IBInspectable (nonatomic) BOOL showControl;
+@property IBInspectable (nonatomic) BOOL repeats;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIScrollView;
 
 SWIFT_CLASS("_TtC10PilotPlant22CHPagingViewController")
 @interface CHPagingViewController : UIViewController <UIScrollViewDelegate>
-@property (nonatomic, copy) NSString * __nonnull imageBaseName_inspect;
-@property (nonatomic) BOOL pageIndicator_inspect;
-@property (nonatomic) NSInteger pageSpace_inspect;
+@property IBInspectable (nonatomic, copy) NSString * __null_unspecified imageBaseName;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
-- (void)scrollViewWillBeginDragging:(UIScrollView * __nonnull)scrollView;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * __nonnull)scrollView;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -177,8 +149,8 @@ SWIFT_CLASS("_TtC10PilotPlant22CHPagingViewController")
 
 SWIFT_CLASS("_TtC10PilotPlant22CHPickerViewController")
 @interface CHPickerViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
-@property (nonatomic) NSInteger column_inspect;
-@property (nonatomic, copy) NSString * __nonnull plistName_inspect;
+@property IBInspectable int numberOfColumn;
+@property IBInspectable NSString *nameOfPlistFile;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
@@ -186,17 +158,6 @@ SWIFT_CLASS("_TtC10PilotPlant22CHPickerViewController")
 - (NSString * __null_unspecified)pickerView:(UIPickerView * __nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component;
 - (void)pickerView:(UIPickerView * __nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView * __nonnull)pickerView;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIStoryboardSegue;
-@class UIPresentationController;
-
-SWIFT_CLASS("_TtC10PilotPlant27CHPopoverHostViewController")
-@interface CHPopoverHostViewController : UIViewController <UIAdaptivePresentationControllerDelegate, UIPopoverPresentationControllerDelegate>
-- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
-- (UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController * __nonnull)controller;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -211,21 +172,20 @@ SWIFT_CLASS("_TtC10PilotPlant21CHRightSlideMenuSegue")
 
 SWIFT_CLASS("_TtC10PilotPlant26CHStopMotionViewController")
 @interface CHStopMotionViewController : UIViewController
-@property (nonatomic, copy) NSString * __nonnull imageBaseName_inspect;
-@property (nonatomic) BOOL repeats_inspect;
-@property (nonatomic) double duration_inspect;
+@property IBInspectable (nonatomic, copy) NSString * __nonnull imageBaseName;
+@property IBInspectable (nonatomic) BOOL repeat;
+@property IBInspectable (nonatomic) double duration;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSString;
 
 SWIFT_CLASS("_TtC10PilotPlant19CHWebViewController")
 @interface CHWebViewController : UIViewController
-@property (nonatomic, strong) NSString * __nonnull URL_inspect;
-@property (nonatomic) BOOL localFile_inspect;
+@property IBInspectable NSString *URL;
+@property IBInspectable NSString *fileNameExt;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -233,14 +193,15 @@ SWIFT_CLASS("_TtC10PilotPlant19CHWebViewController")
 @end
 
 
-SWIFT_CLASS("_TtC10PilotPlant15RoundRectButton")
-@interface RoundRectButton : UIButton
-@property (nonatomic) NSInteger corner_inspect;
-@property (nonatomic) NSInteger border_inspect;
-@property (nonatomic, getter=isHighlighted) BOOL highlighted;
-- (void)layoutSubviews;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@interface UIViewController (SWIFT_EXTENSION(PilotPlant))
+- (IBAction)modalDismiss:(id __nonnull)sender;
+- (IBAction)modalDismissPush:(id __nonnull)sender;
+- (IBAction)navigationBack:(id __nonnull)sender;
+- (IBAction)navigationBackToRoot:(id __nonnull)sender;
+- (IBAction)keyboardDismiss:(id __nonnull)sender;
+- (IBAction)openPhotoLibrary:(id __nonnull)sender;
+@property IBInspectable (nonatomic) BOOL backHidden;
+- (CGSize)viewSize;
 @end
 
 #pragma clang diagnostic pop
