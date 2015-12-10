@@ -1,13 +1,12 @@
 //
 //  AppDelegate.swift
-//  MyGreatAppSketch
+//  MyGreateApp
 //
-//  Created by Lingostar on 2015. 11. 20..
+//  Created by Lingostar on 2015. 11. 27..
 //  Copyright © 2015년 CodersHigh. All rights reserved.
 //
 
 import UIKit
-import PilotPlant
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
