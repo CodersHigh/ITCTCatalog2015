@@ -11,6 +11,9 @@
 		621627C61C1A64CE001D71C6 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 621627C31C1A64B7001D71C6 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		621627C81C1A6682001D71C6 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621627C71C1A6682001D71C6 /* PilotPlant.framework */; };
 		621627CA1C1A6689001D71C6 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621627C91C1A6689001D71C6 /* UIViewController+Navigation.swift */; };
+		62ABE26B1C1D68B100BE11EB /* nan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62ABE26A1C1D68B100BE11EB /* nan.plist */; };
+		62C4CDCB1C1AE2B500EB826D /* CityPicker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C4CDCA1C1AE2B500EB826D /* CityPicker.plist */; };
+		62C4CDCE1C1B021B00EB826D /* Picker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C4CDCD1C1B021B00EB826D /* Picker.plist */; };
 		62DF77641C07F5860040945A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF77631C07F5860040945A /* AppDelegate.swift */; };
 		62DF77661C07F5860040945A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF77651C07F5860040945A /* ViewController.swift */; };
 		62DF77691C07F5860040945A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DF77671C07F5860040945A /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 		621627C31C1A64B7001D71C6 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = /Users/hansanghoon/Desktop/ITCTCatalog2015/SanghoonHan/Completry/PilotPlant.framework; sourceTree = "<absolute>"; };
 		621627C71C1A6682001D71C6 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
 		621627C91C1A6689001D71C6 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		62ABE26A1C1D68B100BE11EB /* nan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nan.plist; sourceTree = "<group>"; };
+		62C4CDCA1C1AE2B500EB826D /* CityPicker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityPicker.plist; sourceTree = "<group>"; };
+		62C4CDCD1C1B021B00EB826D /* Picker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Picker.plist; sourceTree = "<group>"; };
 		62DF77601C07F5860040945A /* Completry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Completry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DF77631C07F5860040945A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62DF77651C07F5860040945A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 				621627C91C1A6689001D71C6 /* UIViewController+Navigation.swift */,
 				62DF77651C07F5860040945A /* ViewController.swift */,
 				62DF77671C07F5860040945A /* Main.storyboard */,
+				62C4CDCA1C1AE2B500EB826D /* CityPicker.plist */,
+				62C4CDCD1C1B021B00EB826D /* Picker.plist */,
+				62ABE26A1C1D68B100BE11EB /* nan.plist */,
 				62DF776A1C07F5860040945A /* Assets.xcassets */,
 				62DF776C1C07F5860040945A /* LaunchScreen.storyboard */,
 				62DF776F1C07F5860040945A /* Info.plist */,
@@ -148,9 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62ABE26B1C1D68B100BE11EB /* nan.plist in Resources */,
 				62DF776E1C07F5860040945A /* LaunchScreen.storyboard in Resources */,
+				62C4CDCB1C1AE2B500EB826D /* CityPicker.plist in Resources */,
 				62DF776B1C07F5860040945A /* Assets.xcassets in Resources */,
 				62DF77691C07F5860040945A /* Main.storyboard in Resources */,
+				62C4CDCE1C1B021B00EB826D /* Picker.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
