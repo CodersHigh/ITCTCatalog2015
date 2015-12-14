@@ -8,7 +8,7 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--자연관찰-->
         <scene sceneID="aKW-V6-C8g">
             <objects>
                 <viewController id="X4v-Kk-cbQ" sceneMemberID="viewController">
@@ -36,7 +36,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Dx6-gt-5nN">
+                    <navigationItem key="navigationItem" title="자연관찰" id="Dx6-gt-5nN">
                         <barButtonItem key="leftBarButtonItem" systemItem="search" id="75q-R2-F3I">
                             <connections>
                                 <segue destination="Yvi-Ak-VOi" kind="presentation" id="IeD-yL-EcO"/>
@@ -797,6 +797,11 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="selectedImageTintColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
                         <segue destination="hK2-xH-Mhc" kind="relationship" relationship="viewControllers" id="LsC-AC-Efm"/>
@@ -812,7 +817,7 @@
         <scene sceneID="meQ-1t-Hqa">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hK2-xH-Mhc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="자연관찰" image="first" id="ypV-nA-4Mo"/>
+                    <tabBarItem key="tabBarItem" title="자연관찰" image="organic1 2x" id="ypV-nA-4Mo"/>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -838,7 +843,7 @@
         <scene sceneID="T2i-mu-0yb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qLD-if-aJL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="프로젝트" image="second" id="f1s-nO-ki1"/>
+                    <tabBarItem key="tabBarItem" title="프로젝트" image="text lines28 2x" id="f1s-nO-ki1"/>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -2394,13 +2399,13 @@
         <image name="Tom1-300x300" width="150" height="150"/>
         <image name="bioblitz_400x400" width="400" height="400"/>
         <image name="d41d8cd98f1368161112499901" width="800" height="600"/>
-        <image name="first" width="30" height="30"/>
         <image name="loah_profile1" width="308" height="308"/>
         <image name="matt-bloom-circle" width="156" height="156"/>
+        <image name="organic1 2x" width="25" height="25"/>
         <image name="plus sign22" width="256" height="256"/>
         <image name="saengtae" width="2160" height="1620"/>
-        <image name="second" width="30" height="30"/>
         <image name="share28" width="64" height="64"/>
+        <image name="text lines28 2x" width="25" height="25"/>
         <image name="thumb52" width="64" height="64"/>
         <image name="triangular30" width="64" height="64"/>
     </resources>
