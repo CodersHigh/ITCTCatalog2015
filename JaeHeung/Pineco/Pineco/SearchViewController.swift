@@ -29,41 +29,38 @@ class SearchViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         self.pickerView1.delegate = self
         self.pickerView2.delegate = self
         
-        let toolBar = UIToolbar()
-        toolBar.barStyle = UIBarStyle.Default
-        toolBar.translucent = true
-        toolBar.tintColor = UIColor(red: 76/255, green: 217/255, blue: 100/255, alpha: 1)
-        toolBar.sizeToFit()
+        let toolBars: [UIToolbar] = [UIToolbar(), UIToolbar(), UIToolbar()]
+        for toolBar in toolBars {
+            toolBar.barStyle = UIBarStyle.Default
+            toolBar.translucent = true
+            toolBar.tintColor = UIColor(red: 76/255, green: 217/255, blue: 100/255, alpha: 1)
+            toolBar.sizeToFit()
+            toolBar.userInteractionEnabled = true
+        }
         
         let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: "donePicker")
         let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: nil, action: nil)
         let cancelButton = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: "cancelPicker")
         
-        toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
-        toolBar.userInteractionEnabled = true
+        let doneButton1 = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: "doneDatePicker1")
+        let doneButton2 = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: "doneDatePicker2")
+        
+        toolBars[0].setItems([cancelButton, spaceButton, doneButton], animated: false)
+        toolBars[1].setItems([cancelButton, spaceButton, doneButton1], animated: false)
+        toolBars[2].setItems([cancelButton, spaceButton, doneButton2], animated: false)
         
         classificationTextField.inputView = self.pickerView1
-        classificationTextField.inputAccessoryView = toolBar
+        classificationTextField.inputAccessoryView = toolBars[0]
         habitatTextField.inputView = self.pickerView2
-        habitatTextField.inputAccessoryView = toolBar
+        habitatTextField.inputAccessoryView = toolBars[0]
         
         self.datePicker1.datePickerMode = UIDatePickerMode.Date
         dateStartTextField.inputView = self.datePicker1
-        dateStartTextField.inputAccessoryView = toolBar
-        
-        let toolBar2 = UIToolbar()
-        toolBar2.barStyle = UIBarStyle.Default
-        toolBar2.translucent = true
-        toolBar2.tintColor = UIColor(red: 76/255, green: 217/255, blue: 100/255, alpha: 1)
-        toolBar2.sizeToFit()
-        
-        let doneButton2 = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: "donePicker2")
-        toolBar2.setItems([cancelButton, spaceButton, doneButton2], animated: false)
+        dateStartTextField.inputAccessoryView = toolBars[1]
         
         self.datePicker2.datePickerMode = UIDatePickerMode.Date
         dateEndTextField.inputView = self.datePicker2
-        dateEndTextField.inputAccessoryView = toolBar2
-        
+        dateEndTextField.inputAccessoryView = toolBars[2]
     }
 
     override func didReceiveMemoryWarning() {
@@ -117,13 +114,19 @@ class SearchViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     // hide the picker view
         self.cancelPicker()
     // perform some action
+    }
+    
+    func doneDatePicker1() {
+        // hide the picker view
+        self.cancelPicker()
+        // perform some action
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "YYYY / MM / dd"
         let dateString1 = dateFormatter.stringFromDate(self.datePicker1.date)
         self.dateStartTextField.text = dateString1
     }
     
-    func donePicker2() {
+    func doneDatePicker2() {
         self.cancelPicker()
         
         let dateFormatter = NSDateFormatter()

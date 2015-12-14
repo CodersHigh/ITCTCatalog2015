@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		622C22AA1C113E450030CB5D /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C22A91C113E450030CB5D /* UIViewController+Navigation.swift */; };
 		7C3B8D8F1C080884009B3741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B8D8E1C080884009B3741 /* AppDelegate.swift */; };
-		7C3B8D961C080884009B3741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3B8D941C080884009B3741 /* Main.storyboard */; };
+		7C3B8D961C080884009B3741 /* Pineco.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3B8D941C080884009B3741 /* Pineco.storyboard */; };
 		7C3B8D981C080884009B3741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3B8D971C080884009B3741 /* Assets.xcassets */; };
 		7C3B8D9B1C080884009B3741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3B8D991C080884009B3741 /* LaunchScreen.storyboard */; };
 		7C3B8DA61C080884009B3741 /* PinecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B8DA51C080884009B3741 /* PinecoTests.swift */; };
 		7C3B8DB11C080884009B3741 /* PinecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B8DB01C080884009B3741 /* PinecoUITests.swift */; };
+		7CB138DF1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB138DE1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift */; };
 		7CF4481A1C1EAA4100CC04FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF448191C1EAA4100CC04FD /* SearchViewController.swift */; };
 		7CF4481C1C1EB1EB00CC04FD /* InitialTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4481B1C1EB1EB00CC04FD /* InitialTabViewController.swift */; };
 		7CF448201C1F272C00CC04FD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4481F1C1F272C00CC04FD /* MapViewController.swift */; };
@@ -55,7 +56,7 @@
 		622C22A91C113E450030CB5D /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		7C3B8D8B1C080884009B3741 /* Pineco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pineco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3B8D8E1C080884009B3741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C3B8D951C080884009B3741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C3B8D951C080884009B3741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Pineco.storyboard; sourceTree = "<group>"; };
 		7C3B8D971C080884009B3741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C3B8D9A1C080884009B3741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3B8D9C1C080884009B3741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		7C3B8DAC1C080884009B3741 /* PinecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3B8DB01C080884009B3741 /* PinecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinecoUITests.swift; sourceTree = "<group>"; };
 		7C3B8DB21C080884009B3741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB138DE1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectInfoTableViewController.swift; path = ../ProjectInfoTableViewController.swift; sourceTree = "<group>"; };
 		7CF448191C1EAA4100CC04FD /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		7CF4481B1C1EB1EB00CC04FD /* InitialTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialTabViewController.swift; path = ../InitialTabViewController.swift; sourceTree = "<group>"; };
 		7CF4481F1C1F272C00CC04FD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
@@ -124,11 +126,12 @@
 			children = (
 				7C3B8D8E1C080884009B3741 /* AppDelegate.swift */,
 				622C22A91C113E450030CB5D /* UIViewController+Navigation.swift */,
-				7C3B8D941C080884009B3741 /* Main.storyboard */,
+				7C3B8D941C080884009B3741 /* Pineco.storyboard */,
 				7C3B8D991C080884009B3741 /* LaunchScreen.storyboard */,
 				7C3B8D971C080884009B3741 /* Assets.xcassets */,
 				7CF4481B1C1EB1EB00CC04FD /* InitialTabViewController.swift */,
 				7CF448191C1EAA4100CC04FD /* SearchViewController.swift */,
+				7CB138DE1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift */,
 				7CF448231C1F299000CC04FD /* WebViewController.swift */,
 				7CF4481F1C1F272C00CC04FD /* MapViewController.swift */,
 				7C3B8D9C1C080884009B3741 /* Info.plist */,
@@ -260,7 +263,7 @@
 			files = (
 				7C3B8D9B1C080884009B3741 /* LaunchScreen.storyboard in Resources */,
 				7C3B8D981C080884009B3741 /* Assets.xcassets in Resources */,
-				7C3B8D961C080884009B3741 /* Main.storyboard in Resources */,
+				7C3B8D961C080884009B3741 /* Pineco.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CB138DF1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift in Sources */,
 				7CF4481A1C1EAA4100CC04FD /* SearchViewController.swift in Sources */,
 				7CF448241C1F299000CC04FD /* WebViewController.swift in Sources */,
 				7CF4481C1C1EB1EB00CC04FD /* InitialTabViewController.swift in Sources */,
@@ -326,12 +330,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7C3B8D941C080884009B3741 /* Main.storyboard */ = {
+		7C3B8D941C080884009B3741 /* Pineco.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7C3B8D951C080884009B3741 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Pineco.storyboard;
 			sourceTree = "<group>";
 		};
 		7C3B8D991C080884009B3741 /* LaunchScreen.storyboard */ = {
