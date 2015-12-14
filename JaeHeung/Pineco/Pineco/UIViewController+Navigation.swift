@@ -104,5 +104,6 @@ public extension UIViewController {
     func viewSize() -> CGSize {
         return self.view.bounds.size
     }
+    
 }
 
