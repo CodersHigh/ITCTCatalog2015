@@ -359,10 +359,10 @@
             </objects>
             <point key="canvasLocation" x="1449.5" y="284.5"/>
         </scene>
-        <!--부종기록-->
+        <!--운동기록-->
         <scene sceneID="A1M-2W-WPt">
             <objects>
-                <viewController title="부종기록" id="2eS-tN-ECP" sceneMemberID="viewController">
+                <viewController title="운동기록" id="2eS-tN-ECP" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mxj-M8-yHi"/>
                         <viewControllerLayoutGuide type="bottom" id="B2Q-yT-hqI"/>
@@ -381,12 +381,8 @@
                                     <tabBarItem title="설정" id="58F-MS-mSy"/>
                                 </items>
                             </tabBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iJa-yG-TdZ">
-                                <rect key="frame" x="0.0" y="352" width="375" height="266"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="l5D-78-8Hr">
-                                <rect key="frame" x="0.0" y="20" width="375" height="344"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record2" translatesAutoresizingMaskIntoConstraints="NO" id="l5D-78-8Hr">
+                                <rect key="frame" x="0.0" y="20" width="375" height="600"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -410,8 +406,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="PaP-Rl-2Rb">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="344"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="edema_record" translatesAutoresizingMaskIntoConstraints="NO" id="PaP-Rl-2Rb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="600"/>
                             </imageView>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qa8-0B-6DH">
                                 <rect key="frame" x="0.0" y="618" width="375" height="49"/>
@@ -423,10 +419,6 @@
                                     <tabBarItem title="설정" id="JW2-Vm-Z3O"/>
                                 </items>
                             </tabBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="B4Z-nU-rgt">
-                                <rect key="frame" x="0.0" y="352" width="375" height="266"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -675,7 +667,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dja-e9-LRa">
                                 <rect key="frame" x="122" y="166" width="130" height="46"/>
-                                <state key="normal" title="Button" image="edema_arm_black"/>
+                                <state key="normal" title="Button" image="disabledUp"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfM-4v-STa">
                                 <rect key="frame" x="128" y="466" width="130" height="46"/>
@@ -1278,15 +1270,16 @@
         <image name="bad9" width="81" height="81"/>
         <image name="bt2" width="200" height="192"/>
         <image name="bt3" width="200" height="192"/>
-        <image name="calendar" width="750" height="774"/>
+        <image name="disabledUp" width="125" height="46"/>
         <image name="downArrow" width="125" height="46"/>
-        <image name="edema_arm_black" width="103" height="59"/>
         <image name="edema_arm_record_tab30" width="30" height="30"/>
+        <image name="edema_record" width="750" height="1334"/>
         <image name="exercise_tab30" width="30" height="30"/>
         <image name="good11" width="81" height="81"/>
         <image name="good12" width="81" height="81"/>
         <image name="good15" width="81" height="81"/>
         <image name="good8" width="81" height="81"/>
+        <image name="record2" width="750" height="1334"/>
         <image name="record_tab30" width="30" height="30"/>
         <image name="upArrow" width="125" height="46"/>
     </resources>
