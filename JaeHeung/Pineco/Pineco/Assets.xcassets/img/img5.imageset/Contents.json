@@ -1,16 +1,16 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
+      "idiom" : "universal",
+      "filename" : "OYG_1993.jpg",
       "scale" : "1x"
     },
     {
-      "idiom" : "iphone",
-      "filename" : "IMG_8350.JPG",
+      "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
+      "idiom" : "universal",
       "scale" : "3x"
     }
   ],
