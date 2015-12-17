@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EjL-oZ-gAc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
@@ -16,152 +16,191 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일_1" translatesAutoresizingMaskIntoConstraints="NO" id="rk3-mG-jeE">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일_1" translatesAutoresizingMaskIntoConstraints="NO" id="un6-84-VrI">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wf2-Qa-SXr">
-                                <rect key="frame" x="204" y="65" width="83" height="107"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shx-CE-qre">
+                                <rect key="frame" x="190" y="0.0" width="99" height="61"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTr-tN-cPO">
+                                <rect key="frame" x="204" y="64" width="85" height="113"/>
                                 <connections>
-                                    <segue destination="yc8-qX-fpp" kind="show" id="VrV-tb-MBC"/>
+                                    <segue destination="n51-tp-pLH" kind="modal" id="4NP-pJ-9XL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qK4-3w-aFc">
+                                <rect key="frame" x="190" y="0.0" width="99" height="61"/>
+                                <connections>
+                                    <segue destination="1oV-79-9ca" kind="modal" id="ZhP-GQ-kH4"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="PXq-So-1XT"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="160" y="447"/>
+            <point key="canvasLocation" x="725" y="565"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="gLb-UQ-vz5">
+        <scene sceneID="SaO-xy-Umd">
             <objects>
-                <viewController id="yc8-qX-fpp" sceneMemberID="viewController">
+                <viewController id="1oV-79-9ca" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jEW-4s-ruj"/>
-                        <viewControllerLayoutGuide type="bottom" id="cb2-9b-svQ"/>
+                        <viewControllerLayoutGuide type="top" id="45Y-Z6-Sxt"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Cm-nR-Omm"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="drV-4l-6di">
+                    <view key="view" contentMode="scaleToFill" id="Soi-ch-FFV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일_2" translatesAutoresizingMaskIntoConstraints="NO" id="vsc-DQ-5Jh">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일 1_1" translatesAutoresizingMaskIntoConstraints="NO" id="OLp-ak-yuz">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdl-ha-KVE">
-                                <rect key="frame" x="20" y="483" width="139" height="85"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUZ-HC-JiS">
+                                <rect key="frame" x="9" y="0.0" width="100" height="47"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Laa-eo-xy1"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="SBV-vF-G5T"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKM-dd-ZTI">
-                                <rect key="frame" x="157" y="483" width="143" height="85"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3P3-Po-NC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kuA-id-h8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="541" y="447"/>
+            <point key="canvasLocation" x="704" y="-150"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="aa4-mh-5Jh">
+        <scene sceneID="oK9-KG-8JZ">
             <objects>
-                <viewController id="SWB-pU-Bd5" sceneMemberID="viewController">
+                <viewController id="bNO-HT-wiv" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qJK-r4-62X"/>
-                        <viewControllerLayoutGuide type="bottom" id="E1j-uT-hRa"/>
+                        <viewControllerLayoutGuide type="top" id="ryH-V7-Dco"/>
+                        <viewControllerLayoutGuide type="bottom" id="Isb-Bd-9Kn"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="XK6-LB-fD1">
+                    <view key="view" contentMode="scaleToFill" id="r0w-oF-Qcw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일_4" translatesAutoresizingMaskIntoConstraints="NO" id="CwG-g2-fIT">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일_3" translatesAutoresizingMaskIntoConstraints="NO" id="QRq-Rm-znk">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ThQ-tn-IGP">
-                                <rect key="frame" x="29" y="0.0" width="72" height="41"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMQ-dr-QU0">
+                                <rect key="frame" x="182" y="0.0" width="107" height="51"/>
+                                <connections>
+                                    <segue destination="Uuf-CX-M30" kind="modal" id="ECu-kj-xbU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="02a-BE-Aax"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lPh-cg-B6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qSG-Ql-aFO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="296" y="1130"/>
+            <point key="canvasLocation" x="1453" y="575"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Aoy-XD-015">
+        <scene sceneID="MOS-T2-Bjy">
             <objects>
-                <viewController id="dFO-bW-s4z" sceneMemberID="viewController">
+                <viewController id="n51-tp-pLH" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZLc-xK-rEx"/>
-                        <viewControllerLayoutGuide type="bottom" id="yTH-Za-ZkS"/>
+                        <viewControllerLayoutGuide type="top" id="k94-Qf-Ouu"/>
+                        <viewControllerLayoutGuide type="bottom" id="1ND-uR-fqy"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="10Z-tm-MNq">
+                    <view key="view" contentMode="scaleToFill" id="2q9-87-v4D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xm-KU-nbO">
-                                <rect key="frame" x="9" y="0.0" width="75" height="51"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkd-IE-nPP">
-                                <rect key="frame" x="210" y="0.0" width="77" height="49"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일_5" translatesAutoresizingMaskIntoConstraints="NO" id="git-g3-FY4">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일_2" translatesAutoresizingMaskIntoConstraints="NO" id="SFf-re-ewh">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRv-F7-qJM">
+                                <rect key="frame" x="158" y="485" width="132" height="83"/>
+                                <connections>
+                                    <segue destination="bNO-HT-wiv" kind="show" id="hu4-0k-5YT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIG-Bk-x4i">
+                                <rect key="frame" x="31" y="485" width="125" height="83"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="vVp-Gp-joj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="rDC-bu-uRr"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FVe-iH-uxO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v4A-I8-dat" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="734" y="1130"/>
+            <point key="canvasLocation" x="1100" y="-32"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="MKJ-bN-In5">
+        <scene sceneID="eoT-2d-e9Q">
             <objects>
-                <viewController id="R3L-D9-Ujo" sceneMemberID="viewController">
+                <viewController id="Uuf-CX-M30" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZCD-lB-2WJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="vIp-vo-V5e"/>
+                        <viewControllerLayoutGuide type="top" id="zfU-KQ-thU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cdh-K7-qnT"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="T0b-Eq-EX3">
+                    <view key="view" contentMode="scaleToFill" id="yrh-ds-zl7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일_3" translatesAutoresizingMaskIntoConstraints="NO" id="aJL-Yw-4Ce">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="새 파일 1_2" translatesAutoresizingMaskIntoConstraints="NO" id="t9b-37-A5r">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tfn-UA-ovN">
-                                <rect key="frame" x="183" y="0.0" width="103" height="50"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stv-8w-XNU">
+                                <rect key="frame" x="6" y="0.0" width="96" height="48"/>
+                                <connections>
+                                    <segue destination="bNO-HT-wiv" kind="show" id="Xzb-km-noE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oQG-F8-YSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="smX-0u-qvC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="912" y="447"/>
+            <point key="canvasLocation" x="1482" y="-125"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QbM-ad-cyl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="EjL-oZ-gAc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="AL6-Ij-QsT"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jwx-g0-fSs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Jfh-r4-xGv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vwX-iw-yWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="193" y="565"/>
         </scene>
     </scenes>
     <resources>
+        <image name="새 파일 1_1" width="1588" height="3112"/>
+        <image name="새 파일 1_2" width="1640" height="3200"/>
         <image name="새 파일_1" width="1516" height="3160"/>
         <image name="새 파일_2" width="1452" height="3244"/>
         <image name="새 파일_3" width="1500" height="3236"/>
-        <image name="새 파일_4" width="1452" height="3204"/>
-        <image name="새 파일_5" width="1612" height="3132"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Xzb-km-noE"/>
+        <segue reference="SBV-vF-G5T"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -7,85 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E0E14421BFEC0C5008D254E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E14411BFEC0C5008D254E /* AppDelegate.swift */; };
-		7E0E14441BFEC0C5008D254E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E14431BFEC0C5008D254E /* ViewController.swift */; };
-		7E0E14471BFEC0C5008D254E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0E14451BFEC0C5008D254E /* Main.storyboard */; };
-		7E0E14491BFEC0C5008D254E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0E14481BFEC0C5008D254E /* Assets.xcassets */; };
-		7E0E144C1BFEC0C5008D254E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0E144A1BFEC0C5008D254E /* LaunchScreen.storyboard */; };
-		7E0E14571BFEC0C5008D254E /* taptapSketchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E14561BFEC0C5008D254E /* taptapSketchTests.swift */; };
-		7E0E14621BFEC0C5008D254E /* taptapSketchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0E14611BFEC0C5008D254E /* taptapSketchUITests.swift */; };
-		7E0E14701BFEC13F008D254E /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0E146F1BFEC13F008D254E /* PilotPlant.framework */; };
-		7E0E14711BFEC13F008D254E /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0E146F1BFEC13F008D254E /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7E0E14741BFEC1CE008D254E /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0E14731BFEC1CE008D254E /* PilotPlant.framework */; settings = {ASSET_TAGS = (); }; };
+		7E6D0BD91C02CC99002CDF7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D0BD81C02CC99002CDF7F /* AppDelegate.swift */; };
+		7E6D0BDB1C02CC99002CDF7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D0BDA1C02CC99002CDF7F /* ViewController.swift */; };
+		7E6D0BDE1C02CC99002CDF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D0BDC1C02CC99002CDF7F /* Main.storyboard */; };
+		7E6D0BE01C02CC99002CDF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D0BDF1C02CC99002CDF7F /* Assets.xcassets */; };
+		7E6D0BE31C02CC99002CDF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6D0BE11C02CC99002CDF7F /* LaunchScreen.storyboard */; };
+		7E6D0BEE1C02CC99002CDF7F /* taptapSketchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D0BED1C02CC99002CDF7F /* taptapSketchTests.swift */; };
+		7E6D0BF91C02CC99002CDF7F /* taptapSketchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D0BF81C02CC99002CDF7F /* taptapSketchUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7E0E14531BFEC0C5008D254E /* PBXContainerItemProxy */ = {
+		7E6D0BEA1C02CC99002CDF7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7E0E14361BFEC0C5008D254E /* Project object */;
+			containerPortal = 7E6D0BCD1C02CC99002CDF7F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E0E143D1BFEC0C5008D254E;
+			remoteGlobalIDString = 7E6D0BD41C02CC99002CDF7F;
 			remoteInfo = taptapSketch;
 		};
-		7E0E145E1BFEC0C5008D254E /* PBXContainerItemProxy */ = {
+		7E6D0BF51C02CC99002CDF7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7E0E14361BFEC0C5008D254E /* Project object */;
+			containerPortal = 7E6D0BCD1C02CC99002CDF7F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E0E143D1BFEC0C5008D254E;
+			remoteGlobalIDString = 7E6D0BD41C02CC99002CDF7F;
 			remoteInfo = taptapSketch;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7E0E14721BFEC13F008D254E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7E0E14711BFEC13F008D254E /* PilotPlant.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		7E0E143E1BFEC0C5008D254E /* taptapSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taptapSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E0E14411BFEC0C5008D254E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E0E14431BFEC0C5008D254E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E0E14461BFEC0C5008D254E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7E0E14481BFEC0C5008D254E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E0E144B1BFEC0C5008D254E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E0E144D1BFEC0C5008D254E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E0E14521BFEC0C5008D254E /* taptapSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taptapSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E0E14561BFEC0C5008D254E /* taptapSketchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taptapSketchTests.swift; sourceTree = "<group>"; };
-		7E0E14581BFEC0C5008D254E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E0E145D1BFEC0C5008D254E /* taptapSketchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taptapSketchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E0E14611BFEC0C5008D254E /* taptapSketchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taptapSketchUITests.swift; sourceTree = "<group>"; };
-		7E0E14631BFEC0C5008D254E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E0E146F1BFEC13F008D254E /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = ../../../Common/PilotPlant.framework; sourceTree = "<group>"; };
-		7E0E14731BFEC1CE008D254E /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = ../../../Common/PilotPlant.framework; sourceTree = "<group>"; };
+		7E6D0BD51C02CC99002CDF7F /* taptapSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taptapSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6D0BD81C02CC99002CDF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E6D0BDA1C02CC99002CDF7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E6D0BDD1C02CC99002CDF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E6D0BDF1C02CC99002CDF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E6D0BE21C02CC99002CDF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E6D0BE41C02CC99002CDF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6D0BE91C02CC99002CDF7F /* taptapSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taptapSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6D0BED1C02CC99002CDF7F /* taptapSketchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taptapSketchTests.swift; sourceTree = "<group>"; };
+		7E6D0BEF1C02CC99002CDF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6D0BF41C02CC99002CDF7F /* taptapSketchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taptapSketchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6D0BF81C02CC99002CDF7F /* taptapSketchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taptapSketchUITests.swift; sourceTree = "<group>"; };
+		7E6D0BFA1C02CC99002CDF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E0E143B1BFEC0C5008D254E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E0E14701BFEC13F008D254E /* PilotPlant.framework in Frameworks */,
-				7E0E14741BFEC1CE008D254E /* PilotPlant.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E0E144F1BFEC0C5008D254E /* Frameworks */ = {
+		7E6D0BD21C02CC99002CDF7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E0E145A1BFEC0C5008D254E /* Frameworks */ = {
+		7E6D0BE61C02CC99002CDF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6D0BF11C02CC99002CDF7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,55 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E0E14351BFEC0C5008D254E = {
+		7E6D0BCC1C02CC99002CDF7F = {
 			isa = PBXGroup;
 			children = (
-				7E0E14731BFEC1CE008D254E /* PilotPlant.framework */,
-				7E0E146F1BFEC13F008D254E /* PilotPlant.framework */,
-				7E0E14401BFEC0C5008D254E /* taptapSketch */,
-				7E0E14551BFEC0C5008D254E /* taptapSketchTests */,
-				7E0E14601BFEC0C5008D254E /* taptapSketchUITests */,
-				7E0E143F1BFEC0C5008D254E /* Products */,
+				7E6D0BD71C02CC99002CDF7F /* taptapSketch */,
+				7E6D0BEC1C02CC99002CDF7F /* taptapSketchTests */,
+				7E6D0BF71C02CC99002CDF7F /* taptapSketchUITests */,
+				7E6D0BD61C02CC99002CDF7F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7E0E143F1BFEC0C5008D254E /* Products */ = {
+		7E6D0BD61C02CC99002CDF7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E0E143E1BFEC0C5008D254E /* taptapSketch.app */,
-				7E0E14521BFEC0C5008D254E /* taptapSketchTests.xctest */,
-				7E0E145D1BFEC0C5008D254E /* taptapSketchUITests.xctest */,
+				7E6D0BD51C02CC99002CDF7F /* taptapSketch.app */,
+				7E6D0BE91C02CC99002CDF7F /* taptapSketchTests.xctest */,
+				7E6D0BF41C02CC99002CDF7F /* taptapSketchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E0E14401BFEC0C5008D254E /* taptapSketch */ = {
+		7E6D0BD71C02CC99002CDF7F /* taptapSketch */ = {
 			isa = PBXGroup;
 			children = (
-				7E0E14411BFEC0C5008D254E /* AppDelegate.swift */,
-				7E0E14431BFEC0C5008D254E /* ViewController.swift */,
-				7E0E14451BFEC0C5008D254E /* Main.storyboard */,
-				7E0E14481BFEC0C5008D254E /* Assets.xcassets */,
-				7E0E144A1BFEC0C5008D254E /* LaunchScreen.storyboard */,
-				7E0E144D1BFEC0C5008D254E /* Info.plist */,
+				7E6D0BD81C02CC99002CDF7F /* AppDelegate.swift */,
+				7E6D0BDA1C02CC99002CDF7F /* ViewController.swift */,
+				7E6D0BDC1C02CC99002CDF7F /* Main.storyboard */,
+				7E6D0BDF1C02CC99002CDF7F /* Assets.xcassets */,
+				7E6D0BE11C02CC99002CDF7F /* LaunchScreen.storyboard */,
+				7E6D0BE41C02CC99002CDF7F /* Info.plist */,
 			);
 			path = taptapSketch;
 			sourceTree = "<group>";
 		};
-		7E0E14551BFEC0C5008D254E /* taptapSketchTests */ = {
+		7E6D0BEC1C02CC99002CDF7F /* taptapSketchTests */ = {
 			isa = PBXGroup;
 			children = (
-				7E0E14561BFEC0C5008D254E /* taptapSketchTests.swift */,
-				7E0E14581BFEC0C5008D254E /* Info.plist */,
+				7E6D0BED1C02CC99002CDF7F /* taptapSketchTests.swift */,
+				7E6D0BEF1C02CC99002CDF7F /* Info.plist */,
 			);
 			path = taptapSketchTests;
 			sourceTree = "<group>";
 		};
-		7E0E14601BFEC0C5008D254E /* taptapSketchUITests */ = {
+		7E6D0BF71C02CC99002CDF7F /* taptapSketchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7E0E14611BFEC0C5008D254E /* taptapSketchUITests.swift */,
-				7E0E14631BFEC0C5008D254E /* Info.plist */,
+				7E6D0BF81C02CC99002CDF7F /* taptapSketchUITests.swift */,
+				7E6D0BFA1C02CC99002CDF7F /* Info.plist */,
 			);
 			path = taptapSketchUITests;
 			sourceTree = "<group>";
@@ -151,14 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E0E143D1BFEC0C5008D254E /* taptapSketch */ = {
+		7E6D0BD41C02CC99002CDF7F /* taptapSketch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E0E14661BFEC0C5008D254E /* Build configuration list for PBXNativeTarget "taptapSketch" */;
+			buildConfigurationList = 7E6D0BFD1C02CC99002CDF7F /* Build configuration list for PBXNativeTarget "taptapSketch" */;
 			buildPhases = (
-				7E0E143A1BFEC0C5008D254E /* Sources */,
-				7E0E143B1BFEC0C5008D254E /* Frameworks */,
-				7E0E143C1BFEC0C5008D254E /* Resources */,
-				7E0E14721BFEC13F008D254E /* Embed Frameworks */,
+				7E6D0BD11C02CC99002CDF7F /* Sources */,
+				7E6D0BD21C02CC99002CDF7F /* Frameworks */,
+				7E6D0BD31C02CC99002CDF7F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -166,68 +142,68 @@
 			);
 			name = taptapSketch;
 			productName = taptapSketch;
-			productReference = 7E0E143E1BFEC0C5008D254E /* taptapSketch.app */;
+			productReference = 7E6D0BD51C02CC99002CDF7F /* taptapSketch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7E0E14511BFEC0C5008D254E /* taptapSketchTests */ = {
+		7E6D0BE81C02CC99002CDF7F /* taptapSketchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E0E14691BFEC0C5008D254E /* Build configuration list for PBXNativeTarget "taptapSketchTests" */;
+			buildConfigurationList = 7E6D0C001C02CC99002CDF7F /* Build configuration list for PBXNativeTarget "taptapSketchTests" */;
 			buildPhases = (
-				7E0E144E1BFEC0C5008D254E /* Sources */,
-				7E0E144F1BFEC0C5008D254E /* Frameworks */,
-				7E0E14501BFEC0C5008D254E /* Resources */,
+				7E6D0BE51C02CC99002CDF7F /* Sources */,
+				7E6D0BE61C02CC99002CDF7F /* Frameworks */,
+				7E6D0BE71C02CC99002CDF7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7E0E14541BFEC0C5008D254E /* PBXTargetDependency */,
+				7E6D0BEB1C02CC99002CDF7F /* PBXTargetDependency */,
 			);
 			name = taptapSketchTests;
 			productName = taptapSketchTests;
-			productReference = 7E0E14521BFEC0C5008D254E /* taptapSketchTests.xctest */;
+			productReference = 7E6D0BE91C02CC99002CDF7F /* taptapSketchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7E0E145C1BFEC0C5008D254E /* taptapSketchUITests */ = {
+		7E6D0BF31C02CC99002CDF7F /* taptapSketchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E0E146C1BFEC0C5008D254E /* Build configuration list for PBXNativeTarget "taptapSketchUITests" */;
+			buildConfigurationList = 7E6D0C031C02CC99002CDF7F /* Build configuration list for PBXNativeTarget "taptapSketchUITests" */;
 			buildPhases = (
-				7E0E14591BFEC0C5008D254E /* Sources */,
-				7E0E145A1BFEC0C5008D254E /* Frameworks */,
-				7E0E145B1BFEC0C5008D254E /* Resources */,
+				7E6D0BF01C02CC99002CDF7F /* Sources */,
+				7E6D0BF11C02CC99002CDF7F /* Frameworks */,
+				7E6D0BF21C02CC99002CDF7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7E0E145F1BFEC0C5008D254E /* PBXTargetDependency */,
+				7E6D0BF61C02CC99002CDF7F /* PBXTargetDependency */,
 			);
 			name = taptapSketchUITests;
 			productName = taptapSketchUITests;
-			productReference = 7E0E145D1BFEC0C5008D254E /* taptapSketchUITests.xctest */;
+			productReference = 7E6D0BF41C02CC99002CDF7F /* taptapSketchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7E0E14361BFEC0C5008D254E /* Project object */ = {
+		7E6D0BCD1C02CC99002CDF7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = itct05;
 				TargetAttributes = {
-					7E0E143D1BFEC0C5008D254E = {
+					7E6D0BD41C02CC99002CDF7F = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					7E0E14511BFEC0C5008D254E = {
+					7E6D0BE81C02CC99002CDF7F = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 7E0E143D1BFEC0C5008D254E;
+						TestTargetID = 7E6D0BD41C02CC99002CDF7F;
 					};
-					7E0E145C1BFEC0C5008D254E = {
+					7E6D0BF31C02CC99002CDF7F = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 7E0E143D1BFEC0C5008D254E;
+						TestTargetID = 7E6D0BD41C02CC99002CDF7F;
 					};
 				};
 			};
-			buildConfigurationList = 7E0E14391BFEC0C5008D254E /* Build configuration list for PBXProject "taptapSketch" */;
+			buildConfigurationList = 7E6D0BD01C02CC99002CDF7F /* Build configuration list for PBXProject "taptapSketch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,37 +211,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 7E0E14351BFEC0C5008D254E;
-			productRefGroup = 7E0E143F1BFEC0C5008D254E /* Products */;
+			mainGroup = 7E6D0BCC1C02CC99002CDF7F;
+			productRefGroup = 7E6D0BD61C02CC99002CDF7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E0E143D1BFEC0C5008D254E /* taptapSketch */,
-				7E0E14511BFEC0C5008D254E /* taptapSketchTests */,
-				7E0E145C1BFEC0C5008D254E /* taptapSketchUITests */,
+				7E6D0BD41C02CC99002CDF7F /* taptapSketch */,
+				7E6D0BE81C02CC99002CDF7F /* taptapSketchTests */,
+				7E6D0BF31C02CC99002CDF7F /* taptapSketchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7E0E143C1BFEC0C5008D254E /* Resources */ = {
+		7E6D0BD31C02CC99002CDF7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0E144C1BFEC0C5008D254E /* LaunchScreen.storyboard in Resources */,
-				7E0E14491BFEC0C5008D254E /* Assets.xcassets in Resources */,
-				7E0E14471BFEC0C5008D254E /* Main.storyboard in Resources */,
+				7E6D0BE31C02CC99002CDF7F /* LaunchScreen.storyboard in Resources */,
+				7E6D0BE01C02CC99002CDF7F /* Assets.xcassets in Resources */,
+				7E6D0BDE1C02CC99002CDF7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E0E14501BFEC0C5008D254E /* Resources */ = {
+		7E6D0BE71C02CC99002CDF7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E0E145B1BFEC0C5008D254E /* Resources */ = {
+		7E6D0BF21C02CC99002CDF7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,59 +251,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7E0E143A1BFEC0C5008D254E /* Sources */ = {
+		7E6D0BD11C02CC99002CDF7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0E14441BFEC0C5008D254E /* ViewController.swift in Sources */,
-				7E0E14421BFEC0C5008D254E /* AppDelegate.swift in Sources */,
+				7E6D0BDB1C02CC99002CDF7F /* ViewController.swift in Sources */,
+				7E6D0BD91C02CC99002CDF7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E0E144E1BFEC0C5008D254E /* Sources */ = {
+		7E6D0BE51C02CC99002CDF7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0E14571BFEC0C5008D254E /* taptapSketchTests.swift in Sources */,
+				7E6D0BEE1C02CC99002CDF7F /* taptapSketchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E0E14591BFEC0C5008D254E /* Sources */ = {
+		7E6D0BF01C02CC99002CDF7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0E14621BFEC0C5008D254E /* taptapSketchUITests.swift in Sources */,
+				7E6D0BF91C02CC99002CDF7F /* taptapSketchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7E0E14541BFEC0C5008D254E /* PBXTargetDependency */ = {
+		7E6D0BEB1C02CC99002CDF7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E0E143D1BFEC0C5008D254E /* taptapSketch */;
-			targetProxy = 7E0E14531BFEC0C5008D254E /* PBXContainerItemProxy */;
+			target = 7E6D0BD41C02CC99002CDF7F /* taptapSketch */;
+			targetProxy = 7E6D0BEA1C02CC99002CDF7F /* PBXContainerItemProxy */;
 		};
-		7E0E145F1BFEC0C5008D254E /* PBXTargetDependency */ = {
+		7E6D0BF61C02CC99002CDF7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E0E143D1BFEC0C5008D254E /* taptapSketch */;
-			targetProxy = 7E0E145E1BFEC0C5008D254E /* PBXContainerItemProxy */;
+			target = 7E6D0BD41C02CC99002CDF7F /* taptapSketch */;
+			targetProxy = 7E6D0BF51C02CC99002CDF7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7E0E14451BFEC0C5008D254E /* Main.storyboard */ = {
+		7E6D0BDC1C02CC99002CDF7F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7E0E14461BFEC0C5008D254E /* Base */,
+				7E6D0BDD1C02CC99002CDF7F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7E0E144A1BFEC0C5008D254E /* LaunchScreen.storyboard */ = {
+		7E6D0BE11C02CC99002CDF7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7E0E144B1BFEC0C5008D254E /* Base */,
+				7E6D0BE21C02CC99002CDF7F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -335,7 +311,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7E0E14641BFEC0C5008D254E /* Debug */ = {
+		7E6D0BFB1C02CC99002CDF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		7E0E14651BFEC0C5008D254E /* Release */ = {
+		7E6D0BFC1C02CC99002CDF7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,11 +394,10 @@
 			};
 			name = Release;
 		};
-		7E0E14671BFEC0C5008D254E /* Debug */ = {
+		7E6D0BFE1C02CC99002CDF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = /Users/itct05/GitHub/ITCTCatalog2015/Common;
 				INFOPLIST_FILE = taptapSketch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.taptapSketch;
@@ -430,11 +405,10 @@
 			};
 			name = Debug;
 		};
-		7E0E14681BFEC0C5008D254E /* Release */ = {
+		7E6D0BFF1C02CC99002CDF7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = /Users/itct05/GitHub/ITCTCatalog2015/Common;
 				INFOPLIST_FILE = taptapSketch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.taptapSketch;
@@ -442,7 +416,7 @@
 			};
 			name = Release;
 		};
-		7E0E146A1BFEC0C5008D254E /* Debug */ = {
+		7E6D0C011C02CC99002CDF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,7 +428,7 @@
 			};
 			name = Debug;
 		};
-		7E0E146B1BFEC0C5008D254E /* Release */ = {
+		7E6D0C021C02CC99002CDF7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,7 +440,7 @@
 			};
 			name = Release;
 		};
-		7E0E146D1BFEC0C5008D254E /* Debug */ = {
+		7E6D0C041C02CC99002CDF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = taptapSketchUITests/Info.plist;
@@ -478,7 +452,7 @@
 			};
 			name = Debug;
 		};
-		7E0E146E1BFEC0C5008D254E /* Release */ = {
+		7E6D0C051C02CC99002CDF7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = taptapSketchUITests/Info.plist;
@@ -493,43 +467,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E0E14391BFEC0C5008D254E /* Build configuration list for PBXProject "taptapSketch" */ = {
+		7E6D0BD01C02CC99002CDF7F /* Build configuration list for PBXProject "taptapSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E0E14641BFEC0C5008D254E /* Debug */,
-				7E0E14651BFEC0C5008D254E /* Release */,
+				7E6D0BFB1C02CC99002CDF7F /* Debug */,
+				7E6D0BFC1C02CC99002CDF7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E0E14661BFEC0C5008D254E /* Build configuration list for PBXNativeTarget "taptapSketch" */ = {
+		7E6D0BFD1C02CC99002CDF7F /* Build configuration list for PBXNativeTarget "taptapSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E0E14671BFEC0C5008D254E /* Debug */,
-				7E0E14681BFEC0C5008D254E /* Release */,
+				7E6D0BFE1C02CC99002CDF7F /* Debug */,
+				7E6D0BFF1C02CC99002CDF7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		7E0E14691BFEC0C5008D254E /* Build configuration list for PBXNativeTarget "taptapSketchTests" */ = {
+		7E6D0C001C02CC99002CDF7F /* Build configuration list for PBXNativeTarget "taptapSketchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E0E146A1BFEC0C5008D254E /* Debug */,
-				7E0E146B1BFEC0C5008D254E /* Release */,
+				7E6D0C011C02CC99002CDF7F /* Debug */,
+				7E6D0C021C02CC99002CDF7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		7E0E146C1BFEC0C5008D254E /* Build configuration list for PBXNativeTarget "taptapSketchUITests" */ = {
+		7E6D0C031C02CC99002CDF7F /* Build configuration list for PBXNativeTarget "taptapSketchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E0E146D1BFEC0C5008D254E /* Debug */,
-				7E0E146E1BFEC0C5008D254E /* Release */,
+				7E6D0C041C02CC99002CDF7F /* Debug */,
+				7E6D0C051C02CC99002CDF7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7E0E14361BFEC0C5008D254E /* Project object */;
+	rootObject = 7E6D0BCD1C02CC99002CDF7F /* Project object */;
 }
