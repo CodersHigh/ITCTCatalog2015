@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC02A0FC1C2141CD00264A7B /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC02A0F91C2141C000264A7B /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC02A0FE1C2141E600264A7B /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC02A0F91C2141C000264A7B /* PilotPlant.framework */; };
+		DC02A1051C21A29500264A7B /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC02A1041C21A29500264A7B /* UIViewController+Navigation.swift */; };
+		DC02A1111C21B6F700264A7B /* flexionExercise.aiff in Resources */ = {isa = PBXBuildFile; fileRef = DC02A1101C21B6F700264A7B /* flexionExercise.aiff */; };
+		DC02A1131C21CBF700264A7B /* extensionExercise.aiff in Resources */ = {isa = PBXBuildFile; fileRef = DC02A1121C21CBF700264A7B /* extensionExercise.aiff */; };
 		DCEFDEE61C07F5F20036CBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEFDEE51C07F5F20036CBEE /* AppDelegate.swift */; };
 		DCEFDEE81C07F5F20036CBEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEFDEE71C07F5F20036CBEE /* ViewController.swift */; };
 		DCEFDEEB1C07F5F20036CBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEFDEE91C07F5F20036CBEE /* Main.storyboard */; };
@@ -34,12 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DCEFDF171C08087D0036CBEE /* Embed Frameworks */ = {
+		DC02A0FD1C2141CD00264A7B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				DC02A0FC1C2141CD00264A7B /* PilotPlant.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +53,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC02A0F91C2141C000264A7B /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		DC02A1041C21A29500264A7B /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		DC02A1101C21B6F700264A7B /* flexionExercise.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = flexionExercise.aiff; sourceTree = "<group>"; };
+		DC02A1121C21CBF700264A7B /* extensionExercise.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = extensionExercise.aiff; sourceTree = "<group>"; };
 		DCEFDEE21C07F5F20036CBEE /* Wookfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wookfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEFDEE51C07F5F20036CBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCEFDEE71C07F5F20036CBEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC02A0FE1C2141E600264A7B /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,9 +98,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC02A1031C218D5800264A7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC02A1121C21CBF700264A7B /* extensionExercise.aiff */,
+				DC02A1101C21B6F700264A7B /* flexionExercise.aiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		DCEFDED91C07F5F20036CBEE = {
 			isa = PBXGroup;
 			children = (
+				DC02A0F91C2141C000264A7B /* PilotPlant.framework */,
 				DCEFDEE41C07F5F20036CBEE /* Wookfit */,
 				DCEFDEF91C07F5F20036CBEE /* WookfitTests */,
 				DCEFDF041C07F5F20036CBEE /* WookfitUITests */,
@@ -110,7 +131,9 @@
 		DCEFDEE41C07F5F20036CBEE /* Wookfit */ = {
 			isa = PBXGroup;
 			children = (
+				DC02A1031C218D5800264A7B /* Resources */,
 				DCEFDEE51C07F5F20036CBEE /* AppDelegate.swift */,
+				DC02A1041C21A29500264A7B /* UIViewController+Navigation.swift */,
 				DCEFDEE71C07F5F20036CBEE /* ViewController.swift */,
 				DCEFDEE91C07F5F20036CBEE /* Main.storyboard */,
 				DCEFDEEC1C07F5F20036CBEE /* Assets.xcassets */,
@@ -148,7 +171,7 @@
 				DCEFDEDE1C07F5F20036CBEE /* Sources */,
 				DCEFDEDF1C07F5F20036CBEE /* Frameworks */,
 				DCEFDEE01C07F5F20036CBEE /* Resources */,
-				DCEFDF171C08087D0036CBEE /* Embed Frameworks */,
+				DC02A0FD1C2141CD00264A7B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,8 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC02A1111C21B6F700264A7B /* flexionExercise.aiff in Resources */,
 				DCEFDEF01C07F5F20036CBEE /* LaunchScreen.storyboard in Resources */,
 				DCEFDEED1C07F5F20036CBEE /* Assets.xcassets in Resources */,
+				DC02A1131C21CBF700264A7B /* extensionExercise.aiff in Resources */,
 				DCEFDEEB1C07F5F20036CBEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC02A1051C21A29500264A7B /* UIViewController+Navigation.swift in Sources */,
 				DCEFDEE81C07F5F20036CBEE /* ViewController.swift in Sources */,
 				DCEFDEE61C07F5F20036CBEE /* AppDelegate.swift in Sources */,
 			);
@@ -416,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = Wookfit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.Wookfit;
@@ -430,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = Wookfit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snu.ux.Wookfit;
