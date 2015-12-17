@@ -33,7 +33,7 @@ class SearchViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         for toolBar in toolBars {
             toolBar.barStyle = UIBarStyle.Default
             toolBar.translucent = true
-            toolBar.tintColor = UIColor(red: 76/255, green: 217/255, blue: 100/255, alpha: 1)
+            toolBar.tintColor = UIColor(red: 0/255, green: 128/255, blue: 128/255, alpha: 1)
             toolBar.sizeToFit()
             toolBar.userInteractionEnabled = true
         }
