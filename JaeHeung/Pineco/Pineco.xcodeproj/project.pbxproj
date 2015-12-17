@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622C22AA1C113E450030CB5D /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C22A91C113E450030CB5D /* UIViewController+Navigation.swift */; };
+		7C3B8D8F1C080884009B3741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B8D8E1C080884009B3741 /* AppDelegate.swift */; };
+		7C3B8D961C080884009B3741 /* Pineco.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3B8D941C080884009B3741 /* Pineco.storyboard */; };
+		7C3B8D981C080884009B3741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3B8D971C080884009B3741 /* Assets.xcassets */; };
+		7C3B8D9B1C080884009B3741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3B8D991C080884009B3741 /* LaunchScreen.storyboard */; };
+		7C3B8DA61C080884009B3741 /* PinecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B8DA51C080884009B3741 /* PinecoTests.swift */; };
+		7C3B8DB11C080884009B3741 /* PinecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B8DB01C080884009B3741 /* PinecoUITests.swift */; };
+		7CB138DF1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB138DE1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift */; };
+		7CF4481A1C1EAA4100CC04FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF448191C1EAA4100CC04FD /* SearchViewController.swift */; };
+		7CF4481C1C1EB1EB00CC04FD /* InitialTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4481B1C1EB1EB00CC04FD /* InitialTabViewController.swift */; };
+		7CF448201C1F272C00CC04FD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF4481F1C1F272C00CC04FD /* MapViewController.swift */; };
+		7CF448221C1F27ED00CC04FD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF448211C1F27ED00CC04FD /* MapKit.framework */; };
+		7CF448241C1F299000CC04FD /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF448231C1F299000CC04FD /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C3B8DA21C080884009B3741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C3B8D831C080884009B3741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C3B8D8A1C080884009B3741;
+			remoteInfo = Pineco;
+		};
+		7C3B8DAD1C080884009B3741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C3B8D831C080884009B3741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C3B8D8A1C080884009B3741;
+			remoteInfo = Pineco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C3B8DCA1C08096C009B3741 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		622C22A91C113E450030CB5D /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		7C3B8D8B1C080884009B3741 /* Pineco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pineco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3B8D8E1C080884009B3741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C3B8D951C080884009B3741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Pineco.storyboard; sourceTree = "<group>"; };
+		7C3B8D971C080884009B3741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C3B8D9A1C080884009B3741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C3B8D9C1C080884009B3741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3B8DA11C080884009B3741 /* PinecoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinecoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3B8DA51C080884009B3741 /* PinecoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinecoTests.swift; sourceTree = "<group>"; };
+		7C3B8DA71C080884009B3741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3B8DAC1C080884009B3741 /* PinecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3B8DB01C080884009B3741 /* PinecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinecoUITests.swift; sourceTree = "<group>"; };
+		7C3B8DB21C080884009B3741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB138DE1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectInfoTableViewController.swift; path = ../ProjectInfoTableViewController.swift; sourceTree = "<group>"; };
+		7CF448191C1EAA4100CC04FD /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7CF4481B1C1EB1EB00CC04FD /* InitialTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialTabViewController.swift; path = ../InitialTabViewController.swift; sourceTree = "<group>"; };
+		7CF4481F1C1F272C00CC04FD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		7CF448211C1F27ED00CC04FD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7CF448231C1F299000CC04FD /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C3B8D881C080884009B3741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF448221C1F27ED00CC04FD /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3B8D9E1C080884009B3741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3B8DA91C080884009B3741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C3B8D821C080884009B3741 = {
+			isa = PBXGroup;
+			children = (
+				7CF448211C1F27ED00CC04FD /* MapKit.framework */,
+				7C3B8D8D1C080884009B3741 /* Pineco */,
+				7C3B8DA41C080884009B3741 /* PinecoTests */,
+				7C3B8DAF1C080884009B3741 /* PinecoUITests */,
+				7C3B8D8C1C080884009B3741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C3B8D8C1C080884009B3741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C3B8D8B1C080884009B3741 /* Pineco.app */,
+				7C3B8DA11C080884009B3741 /* PinecoTests.xctest */,
+				7C3B8DAC1C080884009B3741 /* PinecoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C3B8D8D1C080884009B3741 /* Pineco */ = {
+			isa = PBXGroup;
+			children = (
+				7C3B8D8E1C080884009B3741 /* AppDelegate.swift */,
+				622C22A91C113E450030CB5D /* UIViewController+Navigation.swift */,
+				7C3B8D941C080884009B3741 /* Pineco.storyboard */,
+				7C3B8D991C080884009B3741 /* LaunchScreen.storyboard */,
+				7C3B8D971C080884009B3741 /* Assets.xcassets */,
+				7CF4481B1C1EB1EB00CC04FD /* InitialTabViewController.swift */,
+				7CF448191C1EAA4100CC04FD /* SearchViewController.swift */,
+				7CB138DE1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift */,
+				7CF448231C1F299000CC04FD /* WebViewController.swift */,
+				7CF4481F1C1F272C00CC04FD /* MapViewController.swift */,
+				7C3B8D9C1C080884009B3741 /* Info.plist */,
+			);
+			path = Pineco;
+			sourceTree = "<group>";
+		};
+		7C3B8DA41C080884009B3741 /* PinecoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C3B8DA51C080884009B3741 /* PinecoTests.swift */,
+				7C3B8DA71C080884009B3741 /* Info.plist */,
+			);
+			path = PinecoTests;
+			sourceTree = "<group>";
+		};
+		7C3B8DAF1C080884009B3741 /* PinecoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C3B8DB01C080884009B3741 /* PinecoUITests.swift */,
+				7C3B8DB21C080884009B3741 /* Info.plist */,
+			);
+			path = PinecoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C3B8D8A1C080884009B3741 /* Pineco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C3B8DB51C080884009B3741 /* Build configuration list for PBXNativeTarget "Pineco" */;
+			buildPhases = (
+				7C3B8D871C080884009B3741 /* Sources */,
+				7C3B8D881C080884009B3741 /* Frameworks */,
+				7C3B8D891C080884009B3741 /* Resources */,
+				7C3B8DCA1C08096C009B3741 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pineco;
+			productName = Pineco;
+			productReference = 7C3B8D8B1C080884009B3741 /* Pineco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C3B8DA01C080884009B3741 /* PinecoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C3B8DB81C080884009B3741 /* Build configuration list for PBXNativeTarget "PinecoTests" */;
+			buildPhases = (
+				7C3B8D9D1C080884009B3741 /* Sources */,
+				7C3B8D9E1C080884009B3741 /* Frameworks */,
+				7C3B8D9F1C080884009B3741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C3B8DA31C080884009B3741 /* PBXTargetDependency */,
+			);
+			name = PinecoTests;
+			productName = PinecoTests;
+			productReference = 7C3B8DA11C080884009B3741 /* PinecoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C3B8DAB1C080884009B3741 /* PinecoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C3B8DBB1C080884009B3741 /* Build configuration list for PBXNativeTarget "PinecoUITests" */;
+			buildPhases = (
+				7C3B8DA81C080884009B3741 /* Sources */,
+				7C3B8DA91C080884009B3741 /* Frameworks */,
+				7C3B8DAA1C080884009B3741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C3B8DAE1C080884009B3741 /* PBXTargetDependency */,
+			);
+			name = PinecoUITests;
+			productName = PinecoUITests;
+			productReference = 7C3B8DAC1C080884009B3741 /* PinecoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C3B8D831C080884009B3741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = itct;
+				TargetAttributes = {
+					7C3B8D8A1C080884009B3741 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7C3B8DA01C080884009B3741 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7C3B8D8A1C080884009B3741;
+					};
+					7C3B8DAB1C080884009B3741 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7C3B8D8A1C080884009B3741;
+					};
+				};
+			};
+			buildConfigurationList = 7C3B8D861C080884009B3741 /* Build configuration list for PBXProject "Pineco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C3B8D821C080884009B3741;
+			productRefGroup = 7C3B8D8C1C080884009B3741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C3B8D8A1C080884009B3741 /* Pineco */,
+				7C3B8DA01C080884009B3741 /* PinecoTests */,
+				7C3B8DAB1C080884009B3741 /* PinecoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C3B8D891C080884009B3741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3B8D9B1C080884009B3741 /* LaunchScreen.storyboard in Resources */,
+				7C3B8D981C080884009B3741 /* Assets.xcassets in Resources */,
+				7C3B8D961C080884009B3741 /* Pineco.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3B8D9F1C080884009B3741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3B8DAA1C080884009B3741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C3B8D871C080884009B3741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB138DF1C1F4D7200C3FDAB /* ProjectInfoTableViewController.swift in Sources */,
+				7CF4481A1C1EAA4100CC04FD /* SearchViewController.swift in Sources */,
+				7CF448241C1F299000CC04FD /* WebViewController.swift in Sources */,
+				7CF4481C1C1EB1EB00CC04FD /* InitialTabViewController.swift in Sources */,
+				622C22AA1C113E450030CB5D /* UIViewController+Navigation.swift in Sources */,
+				7CF448201C1F272C00CC04FD /* MapViewController.swift in Sources */,
+				7C3B8D8F1C080884009B3741 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3B8D9D1C080884009B3741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3B8DA61C080884009B3741 /* PinecoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3B8DA81C080884009B3741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3B8DB11C080884009B3741 /* PinecoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C3B8DA31C080884009B3741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C3B8D8A1C080884009B3741 /* Pineco */;
+			targetProxy = 7C3B8DA21C080884009B3741 /* PBXContainerItemProxy */;
+		};
+		7C3B8DAE1C080884009B3741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C3B8D8A1C080884009B3741 /* Pineco */;
+			targetProxy = 7C3B8DAD1C080884009B3741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C3B8D941C080884009B3741 /* Pineco.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C3B8D951C080884009B3741 /* Base */,
+			);
+			name = Pineco.storyboard;
+			sourceTree = "<group>";
+		};
+		7C3B8D991C080884009B3741 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C3B8D9A1C080884009B3741 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C3B8DB31C080884009B3741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C3B8DB41C080884009B3741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C3B8DB61C080884009B3741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pineco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itct.Pineco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C3B8DB71C080884009B3741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pineco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itct.Pineco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7C3B8DB91C080884009B3741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PinecoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itct.PinecoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pineco.app/Pineco";
+			};
+			name = Debug;
+		};
+		7C3B8DBA1C080884009B3741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PinecoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itct.PinecoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pineco.app/Pineco";
+			};
+			name = Release;
+		};
+		7C3B8DBC1C080884009B3741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PinecoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itct.PinecoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pineco;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7C3B8DBD1C080884009B3741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PinecoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itct.PinecoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pineco;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C3B8D861C080884009B3741 /* Build configuration list for PBXProject "Pineco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3B8DB31C080884009B3741 /* Debug */,
+				7C3B8DB41C080884009B3741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C3B8DB51C080884009B3741 /* Build configuration list for PBXNativeTarget "Pineco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3B8DB61C080884009B3741 /* Debug */,
+				7C3B8DB71C080884009B3741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C3B8DB81C080884009B3741 /* Build configuration list for PBXNativeTarget "PinecoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3B8DB91C080884009B3741 /* Debug */,
+				7C3B8DBA1C080884009B3741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C3B8DBB1C080884009B3741 /* Build configuration list for PBXNativeTarget "PinecoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3B8DBC1C080884009B3741 /* Debug */,
+				7C3B8DBD1C080884009B3741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C3B8D831C080884009B3741 /* Project object */;
+}
