@@ -1,33 +1,53 @@
 # ITCTCatalog2015
-서울대학교 정보문화학과 `인터페이스 프로그래밍` 수업 기말 프로젝트를 위한 리포지터리
+[서울대학교 정보문화학과](http://itct.snu.ac.kr) `인터페이스 프로그래밍` 2015년 2학기 수업 기말 프로젝트를 위한 리포지터리
 
 ## Prototypes
 
-### Comple-Try
-한상훈
+### Completry
+<a href = "./SanghoonHan/Completry.md">
+Completry by 한상훈
+
+<img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/SanghoonHan/Presentaion/CompletryScreenshot1.png" alt="Completry Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/SanghoonHan/Presentaion/CompletryScreenshot2.png" alt="Completry Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/SanghoonHan/Presentaion/CompletryScreenshot3.png" alt="Completry Screenshot" height="200" ></a>
 
 
 ### Joywalk
-박재현
+<a href = "./Jaehyeon/Joywalk.md">
+Joywalk by 박재현
 
-### Wook-fit
-맹욱재
+<img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Jaehyeon/presentation/joywalk1.jpg" alt="Joywalk Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Jaehyeon/presentation/joywalk2.jpg" alt="Joywalk Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Jaehyeon/presentation/joywalk3.jpg" alt="Joywalk Screenshot" height="200" ></a>
+
+### Wookfit
+
+
+<a href = "./Wookjae%20Maeng/Wookfit.md">
+
+Wookfit by 맹욱재
+
+<img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Wookjae%20Maeng/Presentation/WoofitScreenshot1.png" alt="Wookfit Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Wookjae%20Maeng/Presentation/WoofitScreenshot2.png" alt="Wookfit Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Wookjae%20Maeng/Presentation/WoofitScreenshot3.png" alt="Wookfit Screenshot" height="200" ></a>
 
 
 ### HandPlotter
-염주섭
+<a href = "./JuSeopYeom/HandPlotter.md">
+HandPlotter by 염주섭
 
+<img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JuSeopYeom/Presentation/HandPlotterScreenshot1.png" alt="HandPlotter Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JuSeopYeom/Presentation/HandPlotterScreenshot2.png" alt="HandPlotter Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JuSeopYeom/Presentation/HandPlotterScreenshot3.png" alt="HandPlotter Screenshot" height="200" ></a>
 
 ### Fairing
-장지우
-
+<a href = "./JangJiwoo/Fairing.md">
+Fairing by 장지우
+</a>
 
 ### Art_in
-정승환
+<a href = "./Snowcat(SeungHwan)Jung/Artin.md">
+Art in by 정승환
 
+<img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Snowcat(SeungHwan)Jung/Presentation/Art_In%20Screenshot1.png" alt="Artin Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Snowcat(SeungHwan)Jung/Presentation/Art_In%20Screenshot2.png" alt="Artin Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Snowcat(SeungHwan)Jung/Presentation/Art_In%20Screenshot3.png" alt="Artin Screenshot" height="200"></a>
 
 ### Pineco
-한재흥
+<a href = "./JaeHeung/Pineco.md">
+Pineco by 한재흥
+
+<img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JaeHeung/Presentation/PinecoScreenshot1.png" alt="Pineco Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JaeHeung/Presentation/PinecoScreenshot2.png" alt="Pineco Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JaeHeung/Presentation/PinecoScreenshot3.png" alt="Pineco Screenshot" height="200"></a>
 
 ## 폴더 구조와 기말 프로젝트 구성
 여러명이 공동으로 작업하는 공간이므로 폴더 사용의 원칙을 지켜주세요.
