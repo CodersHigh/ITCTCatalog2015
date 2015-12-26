@@ -4,7 +4,7 @@
 ## Prototypes
 
 ### Completry
-<a href = "./SanghoonHan/README.md">
+<a href = "./SanghoonHan/">
 Completry by 한상훈
 
 <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/SanghoonHan/Presentaion/CompletryScreenshot1.png" alt="Completry Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/SanghoonHan/Presentaion/CompletryScreenshot2.png" alt="Completry Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/SanghoonHan/Presentaion/CompletryScreenshot3.png" alt="Completry Screenshot" height="200" ></a>
