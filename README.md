@@ -11,7 +11,7 @@ Completry by 한상훈
 
 
 ### Joywalk
-<a href = "./Jaehyeon/README.md">
+<a href = "./Jaehyeon/">
 Joywalk by 박재현
 
 <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Jaehyeon/presentation/joywalk1.jpg" alt="Joywalk Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Jaehyeon/presentation/joywalk2.jpg" alt="Joywalk Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Jaehyeon/presentation/joywalk3.jpg" alt="Joywalk Screenshot" height="200" ></a>
@@ -19,7 +19,7 @@ Joywalk by 박재현
 ### Wookfit
 
 
-<a href = "./Wookjae%20Maeng/README.md">
+<a href = "./Wookjae%20Maeng/">
 
 Wookfit by 맹욱재
 
@@ -27,24 +27,24 @@ Wookfit by 맹욱재
 
 
 ### HandPlotter
-<a href = "./JuSeopYeom/README.md">
+<a href = "./JuSeopYeom/">
 HandPlotter by 염주섭
 
 <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JuSeopYeom/Presentation/HandPlotterScreenshot1.png" alt="HandPlotter Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JuSeopYeom/Presentation/HandPlotterScreenshot2.png" alt="HandPlotter Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JuSeopYeom/Presentation/HandPlotterScreenshot3.png" alt="HandPlotter Screenshot" height="200" ></a>
 
 ### Fairing
-<a href = "./JangJiwoo/README.md">
+<a href = "./JangJiwoo/">
 Fairing by 장지우
 </a>
 
 ### Art_in
-<a href = "./Snowcat(SeungHwan)Jung/README.md">
+<a href = "./Snowcat(SeungHwan)Jung/">
 Art in by 정승환
 
 <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Snowcat(SeungHwan)Jung/Presentation/Art_In%20Screenshot1.png" alt="Artin Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Snowcat(SeungHwan)Jung/Presentation/Art_In%20Screenshot2.png" alt="Artin Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/Snowcat(SeungHwan)Jung/Presentation/Art_In%20Screenshot3.png" alt="Artin Screenshot" height="200"></a>
 
 ### Pineco
-<a href = "./JaeHeung/README.md">
+<a href = "./JaeHeung/">
 Pineco by 한재흥
 
 <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JaeHeung/Presentation/PinecoScreenshot1.png" alt="Pineco Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JaeHeung/Presentation/PinecoScreenshot2.png" alt="Pineco Screenshot" height="200"> <img src="https://raw.githubusercontent.com/CodersHigh/ITCTCatalog2015/master/JaeHeung/Presentation/PinecoScreenshot3.png" alt="Pineco Screenshot" height="200"></a>
